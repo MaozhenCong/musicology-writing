@@ -1,0 +1,4 @@
+interface:
+  display_name: "Musicology Academic Writing"
+  short_description: "Musicology/music education writing workflow"
+  default_prompt: "Use $musicology-music-education-writing to plan, source-check, draft, review, revise, and finalize my musicology or music education paper."
