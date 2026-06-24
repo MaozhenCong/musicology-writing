@@ -1,6 +1,20 @@
 ---
 name: musicology-music-education-writing
-description: Use for end-to-end musicology, music education, piano pedagogy, cross-cultural music education, Western classical music in China, or doctoral-publication writing workflows: topic selection, journal/thesis target selection, literature search, Zotero intake, source reading, evidence matrices, article architecture, literature review, source-safe drafting, exact page citations, non-fabrication checks, reviewer-style subagent critique, revision loops, DOCX/final manuscript preparation, OJS/email submission packages, post-submission revision response, and submission withdrawal/resubmission (/cancel-subscription). Trigger when the user mentions musicology/music education papers, doctoral thesis chapters, journal articles, Zotero, literature review, source matrix, precise citations, "不要杜撰", reviewer/subagent review, target journal requirements, similarity risk, anonymous manuscript, final draft, response to reviewers, withdraw submission, cancel submission, 撤稿, or /cancel-subscription.
+description: >-
+  Use for end-to-end musicology, music education, piano pedagogy,
+  cross-cultural music education, Western classical music in China, or
+  doctoral-publication writing workflows: topic selection, journal/thesis
+  target selection, literature search, Zotero intake, source reading, evidence
+  matrices, article architecture, literature review, source-safe drafting,
+  exact page citations, non-fabrication checks, reviewer-style subagent
+  critique, revision loops, DOCX/final manuscript preparation, OJS/email
+  submission packages, post-submission revision response, and submission
+  withdrawal/resubmission (/cancel-subscription). Trigger when the user
+  mentions musicology/music education papers, doctoral thesis chapters, journal
+  articles, Zotero, literature review, source matrix, precise citations,
+  "不要杜撰", reviewer/subagent review, target journal requirements, similarity
+  risk, anonymous manuscript, final draft, response to reviewers, withdraw
+  submission, cancel submission, 撤稿, or /cancel-subscription.
 ---
 
 # Musicology / Music Education Academic Writing
