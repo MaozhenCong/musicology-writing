@@ -86,10 +86,21 @@ The log answers: “Which claims are safe to write?”
 ## Page and Web Evidence Rules
 
 1. If a source has stable page numbers, cite exact pages for claim-level evidence.
-2. If a PDF viewer page differs from printed pagination, record which one is being used and correct before final citation.
-3. If a source is a webpage, save title, institution, URL, date if visible, access date, and snapshot path if possible.
-4. If a page number cannot be verified, do not invent one. Use a non-paginated web citation only if the target style allows it.
-5. Do not cite a source for a claim it only loosely resembles.
+2. Do not drop relevant literature only because printed pagination cannot be extracted automatically. Preserve the source in the matrix, keep a PDF locator page or other locator for manual correction, and mark the page status explicitly.
+3. If a PDF viewer page differs from printed pagination, record both values: the printed page for citation and the PDF locator page for rechecking.
+4. If printed page numbers are detected automatically, mark them as needing spot-check rather than treating them as infallible.
+5. If printed page numbers cannot be verified, do not invent them. Use the PDF locator page as a temporary correction aid and flag the evidence as not final-citation-ready until the user or agent checks the printed page.
+6. If a source is a webpage, save title, institution, URL, date if visible, access date, and snapshot path if possible.
+7. Do not cite a source for a claim it only loosely resembles.
+
+## Zotero Reading Note Writeback
+
+When writing generated reading notes back to Zotero:
+
+- Prefer Zotero-supported APIs or connector paths. If those are read-only for child notes, do not silently pretend the writeback succeeded.
+- If direct SQLite writeback is necessary, first quit Zotero, create a timestamped backup of `zotero.sqlite`, insert/update notes idempotently using a stable marker such as `codex-source-id`, then reopen Zotero and verify parent-child note counts.
+- Reading notes must preserve source coverage even when full text or printed page extraction is incomplete.
+- Each note should expose both machine-readable fields and human-readable prose: `source_id`, Zotero parent key, full text status, claim supported, page status, printed page if detected, PDF locator page if needed, and citation risk.
 
 ## Chinese-Source Handling
 

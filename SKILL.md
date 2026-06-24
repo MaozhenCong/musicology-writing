@@ -70,12 +70,13 @@ Load only the reference files required for the current phase.
 
 1. Every central claim must trace to a source ID or evidence-log item.
 2. Paginated sources require exact checked page numbers for citation-sensitive claims.
-3. Web sources require title, responsible institution/author where available, URL, access date, and a saved copy or snapshot when possible.
-4. Chinese sources should preserve the original Chinese title and provide an English translation; do not replace titles with pinyin.
-5. If the target style permits it, keep one source per footnote for high-traceability drafting; merge only after the citation audit if the target style requires it.
-6. Treat machine translations and AI summaries as reading aids only. Do not cite them as sources.
-7. If a source is unreadable, incomplete, or only metadata-level, label it as such and do not use it for exact claims.
-8. Similarity-risk control is a writing constraint: avoid reusing dissertation phrasing, previously submitted article structures, or high-risk topic-word clusters.
+3. Do not drop relevant literature merely because automatic printed-page extraction fails; preserve the source and keep PDF locator pages or other locators for manual page correction.
+4. Web sources require title, responsible institution/author where available, URL, access date, and a saved copy or snapshot when possible.
+5. Chinese sources should preserve the original Chinese title and provide an English translation; do not replace titles with pinyin.
+6. If the target style permits it, keep one source per footnote for high-traceability drafting; merge only after the citation audit if the target style requires it.
+7. Treat machine translations and AI summaries as reading aids only. Do not cite them as sources.
+8. If a source is unreadable, incomplete, or only metadata-level, label it as such and do not use it for exact claims.
+9. Similarity-risk control is a writing constraint: avoid reusing dissertation phrasing, previously submitted article structures, or high-risk topic-word clusters.
 
 ## Reviewer / Subagent Rule
 
