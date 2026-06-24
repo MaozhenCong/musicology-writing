@@ -1,6 +1,6 @@
 ---
 name: musicology-music-education-writing
-description: Use for end-to-end musicology, music education, piano pedagogy, cross-cultural music education, Western classical music in China, or doctoral-publication writing workflows: topic selection, journal/thesis target selection, literature search, Zotero intake, source reading, evidence matrices, article architecture, literature review, source-safe drafting, exact page citations, non-fabrication checks, reviewer-style subagent critique, revision loops, DOCX/final manuscript preparation, OJS/email submission packages, and post-submission revision response. Trigger when the user mentions musicology/music education papers, doctoral thesis chapters, journal articles, Zotero, literature review, source matrix, precise citations, "不要杜撰", reviewer/subagent review, target journal requirements, similarity risk, anonymous manuscript, final draft, or response to reviewers.
+description: Use for end-to-end musicology, music education, piano pedagogy, cross-cultural music education, Western classical music in China, or doctoral-publication writing workflows: topic selection, journal/thesis target selection, literature search, Zotero intake, source reading, evidence matrices, article architecture, literature review, source-safe drafting, exact page citations, non-fabrication checks, reviewer-style subagent critique, revision loops, DOCX/final manuscript preparation, OJS/email submission packages, post-submission revision response, and submission withdrawal/resubmission (/cancel-subscription). Trigger when the user mentions musicology/music education papers, doctoral thesis chapters, journal articles, Zotero, literature review, source matrix, precise citations, "不要杜撰", reviewer/subagent review, target journal requirements, similarity risk, anonymous manuscript, final draft, response to reviewers, withdraw submission, cancel submission, 撤稿, or /cancel-subscription.
 ---
 
 # Musicology / Music Education Academic Writing
@@ -29,6 +29,7 @@ The default success criterion is not “a polished-looking essay.” It is a man
 - Running reviewer/subagent critique: read `references/reviewer-subagent-protocol.md`.
 - Needing reusable tables/checklists: read `references/templates.md`.
 - Needing examples from the three observed submission patterns: read `references/case-patterns.md`.
+- Withdrawing a submission, cancelling a submission, or resubmitting to a new target: read `references/withdraw-resubmit.md`.
 - Sharing through GitHub or using this skill with non-Codex agents: read `references/agent-portability.md`.
 
 Load only the reference files required for the current phase.
@@ -49,6 +50,7 @@ Load only the reference files required for the current phase.
 12. Revision: revise against a prioritized plan; avoid broad rewrites when two surgical edits solve the issue.
 13. Final package: generate the manuscript, metadata, declarations, cover letter or OJS fields, and final checklist.
 14. Submission and monitoring: record exact submission details; after submission, freeze the submitted version unless the journal requests revision.
+15. Withdrawal and resubmission (/cancel-subscription): verify withdrawal reason, draft withdrawal letter, freeze records, update project status, and if resubmitting, re-check target fit and similarity risk before creating a new lane.
 
 ## Source and Citation Rules
 
