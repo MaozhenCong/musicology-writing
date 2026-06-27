@@ -22,7 +22,7 @@ Confirm or infer:
 
 If the user says DOCX only, generate DOCX as the final artifact. Rendering pages for QA is allowed, but do not hand off a final PDF.
 
-For this user's dissertation work, apply the same Chicago Notes-Bibliography footnote logic across the whole dissertation, not only one chapter: one note callout per citation position, multiple same-position sources inside that note separated by semicolons, and no stacked footnote numbers unless the institution explicitly requires them.
+For this user's dissertation work, apply the same footnote logic as all other writing tracks: avoid stacking several note callouts after one sentence; split prose into source-specific claims where possible; use one note callout per citation position; put multiple same-position sources inside that note separated by semicolons only when the claim genuinely needs them together.
 
 ## Full-Dissertation Workspace
 
@@ -100,8 +100,11 @@ S002	Web PDF article	file p. 3	3	no printed page	no continuous printed paginatio
 For full-dissertation work using Chicago Notes-Bibliography:
 
 - place one note callout at the end of the sentence or clause being supported;
-- put multiple sources for the same citation position in one footnote, separated by semicolons;
+- prefer splitting overloaded citation sentences into several shorter evidence-specific sentences, each with its own note;
+- put multiple sources for the same citation position in one footnote, separated by semicolons, only when the claim genuinely needs them together;
 - do not stack multiple note numbers at one sentence unless the institution explicitly requires it;
+- format main text as Times New Roman 12 pt and footnote text as Times New Roman 10 pt, single-spaced, unless the institution requires otherwise;
+- use Word automatic footnote numbering; do not type note numbers manually;
 - group same-author references only when it improves clarity and does not hide distinct source identities;
 - include exact pages for paginated claims;
 - extract real printed pages from the original source file whenever available;

@@ -80,12 +80,13 @@ Load only the reference files required for the current phase.
 3. Do not drop relevant literature merely because automatic printed-page extraction fails; preserve the source and keep PDF/file locator pages or other locators for manual page correction.
 4. Web sources require title, responsible institution/author where available, URL, access date, and a saved copy or snapshot when possible.
 5. Chinese sources should preserve the original Chinese title and provide an English translation; do not replace titles with pinyin.
-6. For full-dissertation Chicago Notes-Bibliography work, use one note callout at a citation position throughout the dissertation; put multiple sources in that single footnote separated by semicolons unless the user or institution requires otherwise. Do not stack several footnote numbers at the same sentence.
-7. For journal-article drafting, keep one source per footnote by default for traceability unless the target style or user asks to merge.
-8. If no printed pagination exists after inspection, cite a concise locator such as `file p. 6`; do not add verbose page-warning prose inside the footnote.
-9. Treat machine translations and AI summaries as reading aids only. Do not cite them as sources.
-10. If a source is unreadable, incomplete, or only metadata-level, label it as such and do not use it for exact claims.
-11. Similarity-risk control is a writing constraint: avoid reusing dissertation phrasing, previously submitted article structures, or high-risk topic-word clusters.
+6. Across all writing tracks, avoid piling several footnote callouts after one sentence. When possible, split the prose into separate evidence-specific sentences and give each source or source group its own note callout.
+7. Use one note callout at a citation position. Put multiple sources in that single footnote, separated by semicolons, only when the same sentence or clause genuinely requires several sources together.
+8. For high-traceability drafting, prefer source-specific footnotes over large authority-accumulation notes. Do not merge sources merely to reduce note count.
+9. If no printed pagination exists after inspection, cite a concise locator such as `file p. 6`; do not add verbose page-warning prose inside the footnote.
+10. Treat machine translations and AI summaries as reading aids only. Do not cite them as sources.
+11. If a source is unreadable, incomplete, or only metadata-level, label it as such and do not use it for exact claims.
+12. Similarity-risk control is a writing constraint: avoid reusing dissertation phrasing, previously submitted article structures, or high-risk topic-word clusters.
 
 ## Reviewer / Subagent Rule
 

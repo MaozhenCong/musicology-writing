@@ -98,23 +98,34 @@ The log answers: “Which claims are safe to write?”
 
 ## Footnote Style Rules
 
-For dissertation Chicago Notes-Bibliography work:
+These rules apply across dissertation chapters, journal articles, conference papers, and revision packages unless a target style guide explicitly requires another system:
 
+- avoid piling several footnote callouts after one sentence;
+- when possible, split the prose into separate evidence-specific sentences and place one note callout after each supported claim;
 - use one note callout at a citation position;
-- put multiple sources in that same footnote separated by semicolons when they support the same sentence or clause;
-- avoid stacked note numbers unless the institution explicitly requires them;
-- keep exact checked pages for each source;
-- apply the same rule across the whole dissertation, not only the currently edited chapter.
+- put multiple sources in that same footnote, separated by semicolons, only when they jointly support the same sentence or clause;
+- do not merge sources merely to reduce note count or make a paragraph look shorter;
+- avoid stacked note numbers unless the institution, journal, or style guide explicitly requires them;
+- keep exact checked pages for each source.
+
+For English academic DOCX files using notes:
+
+- keep main text in Times New Roman 12 pt unless the target requires otherwise;
+- keep footnote text in Times New Roman 10 pt, single-spaced;
+- keep footnote spacing consistent, usually 0 pt or 6 pt after according to the target;
+- let Word generate the footnote references automatically;
+- keep body-text note callouts superscript;
+- do not type footnote numbers manually in the body or in the footnote area.
+
+For Chicago Notes-Bibliography work:
+
 - use full notes on first citation and shortened notes on later citation unless institutional guidance says otherwise;
 - avoid `ibid.` by default because chapter edits can make it ambiguous;
 - keep one bibliography entry per cited source even when several sources appear in one footnote.
 
 Use `file p.` only after checking the original source, cited page, adjacent pages when available, and visible page header/footer areas. Do not call an OCR failure a missing printed page.
 
-For journal-article work:
-
-- keep one source per footnote by default for traceability unless the target style or user asks to merge;
-- convert to author-date or another target style only after page locators have been audited.
+For author-date or journal-specific styles, keep the same evidence logic during drafting and convert only after page locators have been audited.
 
 ## Zotero Reading Note Writeback
 

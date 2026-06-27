@@ -61,7 +61,9 @@ When publication is needed for doctoral progress:
 
 ## Citation and Footnote Handling
 
-For journal articles, keep one source per footnote by default during drafting and audit because it improves traceability. Merge multiple sources into one note only when:
+The general citation rule applies here too: avoid piling multiple note callouts after one sentence. When several sources make different points, split the prose into separate source-specific sentences and cite each sentence separately.
+
+For journal articles, keep one source or one tightly related source group per footnote by default during drafting and audit because it improves traceability. Merge multiple sources into one note only when:
 
 - the journal style prefers combined notes;
 - the user asks for merged notes;
