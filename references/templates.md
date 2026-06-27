@@ -67,6 +67,20 @@ claim_id	claim_text	evidence_source	source_location_or_page	manuscript_location	
 C001
 ```
 
+## Page Locator Audit
+
+```tsv
+source_id	short_citation	claim_or_section	printed_page	file_page	page_status	verification_method	adjacent_pages_checked	html_or_publisher_checked	notes
+S001		Introduction	91	5	verified	rendered page	yes	n/a
+```
+
+## Footnote Audit
+
+```tsv
+note_id	manuscript_location	sources_in_note	style_ok	page_locators_ok	action_needed	notes
+1	Introduction paragraph 2	2	yes	yes	none
+```
+
 ## Claim-Evidence Outline
 
 ```markdown
@@ -141,4 +155,41 @@ R001
 - [ ] Declarations truthful and complete.
 - [ ] Submission record prepared.
 - [ ] Manual confirmations listed for the author.
+```
+
+## Dissertation DOCX Checklist
+
+```markdown
+# Dissertation DOCX Checklist
+
+- [ ] DOCX is the final deliverable unless PDF was explicitly requested.
+- [ ] Footnote references and footnote definitions match.
+- [ ] Footnote style is consistent across the whole dissertation.
+- [ ] No stacked note numbers where a single note callout is expected.
+- [ ] Multiple sources in one Chicago footnote are separated by semicolons.
+- [ ] Printed pages were extracted from original source files and visually checked where available.
+- [ ] `file p.` is used only where printed pagination cannot be confirmed or does not exist.
+- [ ] No page-placeholder wording remains.
+- [ ] Layout inspection or rendered pages show no blank pages or severe overflow.
+```
+
+## Journal Lane Status
+
+```markdown
+# Journal Lane Status
+
+target:
+status:
+submission route:
+submission id:
+last verified:
+active files:
+
+## Official requirements checked
+
+## Evidence and citation status
+
+## Similarity-risk notes
+
+## Submission/monitoring record
 ```

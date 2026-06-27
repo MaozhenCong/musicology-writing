@@ -86,12 +86,35 @@ The log answers: “Which claims are safe to write?”
 ## Page and Web Evidence Rules
 
 1. If a source has stable page numbers, cite exact pages for claim-level evidence.
-2. Do not drop relevant literature only because printed pagination cannot be extracted automatically. Preserve the source in the matrix, keep a PDF locator page or other locator for manual correction, and mark the page status explicitly.
-3. If a PDF viewer page differs from printed pagination, record both values: the printed page for citation and the PDF locator page for rechecking.
-4. If printed page numbers are detected automatically, mark them as needing spot-check rather than treating them as infallible.
-5. If printed page numbers cannot be verified, do not invent them. Use the PDF locator page as a temporary correction aid and flag the evidence as not final-citation-ready until the user or agent checks the printed page.
-6. If a source is a webpage, save title, institution, URL, date if visible, access date, and snapshot path if possible.
-7. Do not cite a source for a claim it only loosely resembles.
+2. Do not drop relevant literature only because printed pagination cannot be extracted automatically. Preserve the source in the matrix, keep a PDF/file locator page or other locator for rechecking, and mark the page status explicitly.
+3. If a PDF viewer page differs from printed pagination, record both values: the printed page for citation and the PDF/file locator page for rechecking.
+4. If printed page numbers are detected automatically, mark them as requiring visual spot-check rather than treating them as infallible.
+5. When the user asks for real printed pages, inspect the original source file or rendered page images. Do not rely only on OCR, text extraction, or bibliography snippets.
+6. Treat isolated digits, footnote numbers, volume numbers, issue numbers, and running-header fragments as suspect page evidence until visually confirmed.
+7. If printed page numbers cannot be verified or do not exist after inspection, do not invent them. Use a concise fallback such as `file p. 6` and keep the source if it is relevant.
+8. Page uncertainty should not lower a source's citation priority. Relevance and evidentiary value decide whether to use the source; page status decides only how the locator is written.
+9. If a source is a webpage, save title, institution, URL, date if visible, access date, and snapshot path if possible.
+10. Do not cite a source for a claim it only loosely resembles.
+
+## Footnote Style Rules
+
+For dissertation Chicago Notes-Bibliography work:
+
+- use one note callout at a citation position;
+- put multiple sources in that same footnote separated by semicolons when they support the same sentence or clause;
+- avoid stacked note numbers unless the institution explicitly requires them;
+- keep exact checked pages for each source;
+- apply the same rule across the whole dissertation, not only the currently edited chapter.
+- use full notes on first citation and shortened notes on later citation unless institutional guidance says otherwise;
+- avoid `ibid.` by default because chapter edits can make it ambiguous;
+- keep one bibliography entry per cited source even when several sources appear in one footnote.
+
+Use `file p.` only after checking the original source, cited page, adjacent pages when available, and visible page header/footer areas. Do not call an OCR failure a missing printed page.
+
+For journal-article work:
+
+- keep one source per footnote by default for traceability unless the target style or user asks to merge;
+- convert to author-date or another target style only after page locators have been audited.
 
 ## Zotero Reading Note Writeback
 
@@ -106,8 +129,8 @@ When writing generated reading notes back to Zotero:
 
 Preserve Chinese specificity:
 
-- Keep original Chinese titles.
-- Add English translations for international readers.
+- In English manuscripts and footnotes, write English translation first and put the original Chinese title in parentheses unless a target style requires another order.
+- Keep original Chinese titles in the source matrix and bibliography notes.
 - Translate key terms conservatively and consistently.
 - For direct quotations, keep a short Chinese excerpt only when necessary and provide English translation.
 - For paraphrases, cite the source and page/snapshot; do not rely on AI-generated summaries.

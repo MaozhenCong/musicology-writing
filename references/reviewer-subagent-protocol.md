@@ -93,3 +93,15 @@ For a citation-only pass:
 ```text
 Audit the manuscript against the source matrix and evidence log. Identify unsupported claims, missing page numbers, reference-list mismatches, web citation weaknesses, and Chinese-title translation issues. Do not edit the manuscript.
 ```
+
+For a dissertation Chicago-footnote pass:
+
+```text
+Audit the dissertation chapter's Chicago Notes-Bibliography footnotes. Verify that each citation position has one note callout where appropriate, that multiple sources in one note are separated clearly, that printed pages were checked from the source files when available, that `file p.` appears only when printed pagination cannot be confirmed or does not exist, and that no unresolved page placeholders remain. Do not rewrite the chapter.
+```
+
+For a full-dissertation consistency pass:
+
+```text
+Audit the whole dissertation for citation-style consistency. Check that Chicago Notes-Bibliography rules are applied across every chapter, that first and shortened notes are consistent, that multiple same-position sources are inside one footnote separated by semicolons, that bibliography entries correspond to cited sources, that printed pages were verified from original source files, and that DOCX remains the final deliverable unless PDF was requested. Do not rewrite the dissertation.
+```

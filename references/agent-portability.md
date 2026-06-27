@@ -14,10 +14,13 @@ musicology-music-education-writing/
 └── references/
     ├── agent-portability.md
     ├── case-patterns.md
+    ├── dissertation-chapter-workflow.md
     ├── end-to-end-workflow.md
     ├── evidence-citation-zotero.md
+    ├── journal-article-workflow.md
     ├── journal-thesis-adaptation.md
     ├── reviewer-subagent-protocol.md
+    ├── withdraw-resubmit.md
     └── templates.md
 ```
 

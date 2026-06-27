@@ -51,6 +51,20 @@ Adapt the same research area differently depending on target:
 
 Do not force a journal to accept a frame it does not publish. If the best article for the evidence does not fit the target, say so.
 
+For detailed track rules, use `references/dissertation-chapter-workflow.md` for thesis chapters and `references/journal-article-workflow.md` for journal articles.
+
+## Dissertation Format Adaptation
+
+For thesis chapters:
+
+1. Confirm the required citation style and output format.
+2. Use DOCX as the default final deliverable when the user wants an editable dissertation chapter.
+3. If Chicago Notes-Bibliography is requested for a dissertation, apply it consistently across the whole dissertation: place one note callout at the citation position and place multiple sources in that single note with semicolons.
+4. Cite verified printed pages from the original source when available; use `file p.` only when printed pagination cannot be confirmed or does not exist after inspection.
+5. Use rendered pages or Word inspection for layout QA, but do not deliver a final PDF unless requested.
+6. Preserve breadth appropriate to dissertation work while keeping every claim traceable to evidence.
+7. Treat margin, heading, footnote-font, page-numbering, front-matter, and institutional metadata rules as external thesis requirements; verify them from supervisor or university documents before final formatting.
+
 ## Fast Doctoral Publication Mode
 
 When the user needs a publication for doctoral requirements:
