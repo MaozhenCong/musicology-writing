@@ -7,7 +7,7 @@ Use this reference when publishing the skill on GitHub or handing it to another 
 Keep this folder intact:
 
 ```text
-musicology-music-education-writing/
+musicology-writing/
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml
@@ -24,14 +24,14 @@ musicology-music-education-writing/
     └── templates.md
 ```
 
-For a GitHub repository, either place this folder at the repository root or inside a top-level `skills/` directory. Keep the folder name exactly `musicology-music-education-writing`.
+For a GitHub repository, either place this folder at the repository root or inside a top-level `skills/` directory. Keep the folder name exactly `musicology-writing`.
 
 ## Generic Agent Instruction
 
 If an agent does not support automatic skill loading, paste or point it to this instruction:
 
 ```text
-Use the skill folder `musicology-music-education-writing`. Read `SKILL.md` first. Then load only the reference files needed for the current phase. Follow the no-fabrication, exact-citation, source-matrix, reviewer-pass, and final-package rules. Do not rely on local memories or private paths.
+Use the skill folder `musicology-writing`. Read `SKILL.md` first. Then load only the reference files needed for the current phase. Follow the no-fabrication, exact-citation, source-matrix, reviewer-pass, and final-package rules. Do not rely on local memories or private paths.
 ```
 
 ## Codex / OpenAI Agents

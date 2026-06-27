@@ -1,5 +1,5 @@
 ---
-name: musicology-music-education-writing
+name: musicology-writing
 description: >-
   Use for end-to-end musicology, music education, piano pedagogy,
   cross-cultural music education, Western classical music in China, or
