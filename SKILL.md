@@ -38,6 +38,7 @@ This is one v1 skill with two explicit tracks, not two separate skills: a doctor
 7. Treat official requirements, source PDFs, verified web snapshots, and saved correspondence as stronger evidence than memory or search snippets.
 8. Do not invent facts, page numbers, source contents, deadlines, fees, editorial policies, issue timing, or reviewer comments.
 9. Preserve project artifacts: source matrix, evidence log, reading notes, outline, draft, reviewer reports, revision plan, final checklist, and submission record.
+10. Treat workflow stages as gates, not suggestions. When the user asks to follow the full skill workflow, continue through every required gate until complete or explicitly blocked; do not stop after drafting, citation checking, or file generation if reviewer, revision, audit, or final-package gates remain.
 
 ## Workflow Router
 
@@ -67,8 +68,8 @@ Load only the reference files required for the current phase.
 8. Literature review and method: synthesize by theme and state corpus limits honestly.
 9. Drafting: write section by section from the evidence map; mark gaps instead of filling them with guesses.
 10. Citation audit: check every substantive claim, quote, paraphrase, page number, and reference-list entry.
-11. Reviewer loop: use strict reviewer passes or subagents to identify desk-rejection risks, weak claims, missing evidence, and format problems.
-12. Revision: revise against a prioritized plan; avoid broad rewrites when two surgical edits solve the issue.
+11. Reviewer loop: use strict reviewer passes or subagents to identify desk-rejection risks, weak claims, missing evidence, and format problems. This gate is complete only after reviewer reports or role-labeled reports are saved or summarized, and a revision plan is created.
+12. Revision: revise against a prioritized plan; avoid broad rewrites when two surgical edits solve the issue. This gate is complete only after the revised text is checked against the reviewer plan.
 13. Final package: generate the manuscript, metadata, declarations, cover letter or OJS fields, and final checklist.
 14. Submission and monitoring: record exact submission details; after submission, freeze the submitted version unless the journal requests revision.
 15. Withdrawal and resubmission (/cancel-subscription): verify withdrawal reason, draft withdrawal letter, freeze records, update project status, and if resubmitting, re-check target fit and similarity risk before creating a new lane.
@@ -90,9 +91,9 @@ Load only the reference files required for the current phase.
 
 ## Reviewer / Subagent Rule
 
-Before finalization, run at least one strict reviewer pass. If subagents or fresh threads are available, give them the manuscript and target requirements, not the intended answer. Ask for specific, evidence-based criticism and a decision-style recommendation. If subagents are unavailable, perform separate role-labeled passes in sequence and keep their reports distinct.
+Before finalization, run at least one strict reviewer pass. For dissertation chapters, final manuscripts, major revisions, or any request that says to follow the full workflow, use the reviewer/subagent gate before final delivery. If subagents or fresh threads are available and the user has explicitly requested subagents, independent agents, or parallel review, spawn distinct reviewer subagents rather than silently doing a single self-review. Give them the manuscript and target requirements, not the intended answer. Ask for specific, evidence-based criticism and a decision-style recommendation. If subagents are unavailable or not explicitly authorized in the current tool environment, say so explicitly and perform separate role-labeled passes in sequence, keeping their reports distinct.
 
-The reviewer pass is read-only by default. Convert criticism into a prioritized revision plan before editing.
+The reviewer pass is read-only by default. Convert criticism into a prioritized revision plan before editing. Do not mark the final package ready until the handoff can identify the reviewer reports, the synthesis or revision plan, and the actions taken. If the reviewer gate is intentionally skipped by user instruction, state that exception in the final checklist.
 
 ## Final Package Rule
 
@@ -102,10 +103,11 @@ A final package is ready only when these items are checked:
 2. Manuscript scope matches available evidence.
 3. Source matrix and evidence log agree with the final text.
 4. Citation style, bibliography, page numbers, URLs, and access dates were audited.
-5. Required declarations are present and truthfully worded.
-6. Anonymous and authored versions are handled according to the target rules.
-7. DOCX/PDF layout and metadata were inspected when those formats matter; if the user asks for DOCX only, do not deliver a final PDF.
-8. The user-facing handoff names the ready files and manual confirmations still required.
+5. Reviewer/subagent gate was completed or explicitly documented as unavailable or user-skipped.
+6. Required declarations are present and truthfully worded.
+7. Anonymous and authored versions are handled according to the target rules.
+8. DOCX/PDF layout and metadata were inspected when those formats matter; if the user asks for DOCX only, do not deliver a final PDF.
+9. The user-facing handoff names the ready files and manual confirmations still required.
 
 ## Portability for Other Agents
 

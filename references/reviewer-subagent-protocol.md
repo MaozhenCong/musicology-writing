@@ -2,6 +2,24 @@
 
 Use this reference before finalization, major revision, or response to reviewers.
 
+## Non-Skip Gate
+
+Reviewer review is a workflow gate, not optional polish, in these cases:
+
+- the user asks to follow the full skill workflow;
+- the user asks for final delivery, final draft, DOCX/final manuscript, submission package, or dissertation-chapter completion;
+- the task is a major revision, response to reviewers, or evidence-sensitive dissertation/publication draft;
+- the user explicitly mentions subagents, external review, reviewer passes, strict checking, or "不要跳过".
+
+Do not mark the project as final-ready until this gate has a visible artifact:
+
+1. reviewer reports or role-labeled self-review reports;
+2. a synthesis of duplicate/conflicting comments;
+3. a prioritized revision plan;
+4. a record of which revisions were applied, rejected, or left for manual follow-up.
+
+If subagent tools are available and the user has explicitly requested subagents, independent agents, or parallel review, spawn separate subagents for distinct roles. If subagents are unavailable or not explicitly authorized in the current tool environment, state that limitation and run the same roles sequentially in the main thread. Do not silently replace a requested subagent review with an unlabelled internal check.
+
 ## Default Reviewer Passes
 
 Run at least one strict pass. For high-stakes submission, use several distinct perspectives:
@@ -12,7 +30,16 @@ Run at least one strict pass. For high-stakes submission, use several distinct p
 4. Citation auditor: page numbers, reference correspondence, Chinese titles/translations, DOI/URL accuracy.
 5. Devil's advocate: strongest counterargument, overclaiming, missing alternative explanation, similarity risk.
 
-If subagents are available, run them independently. If not, perform separate role-labeled passes in one thread and keep the outputs separate.
+If subagents are available and explicitly authorized for the current task, run them independently. If not, perform separate role-labeled passes in one thread and keep the outputs separate.
+
+For dissertation-chapter work, the minimum independent roles are:
+
+1. dissertation examiner: argument, structure, chapter scope, contribution;
+2. field reviewer: musicology / music education / reception-history accuracy;
+3. citation and evidence auditor: source matrix, page locators, primary/secondary source boundaries;
+4. devil's advocate: overclaiming, similarity risk, strongest objections.
+
+For final DOCX or submission packages, add a layout/format auditor after the revised document exists.
 
 ## Inputs to Give Reviewers
 
@@ -68,6 +95,8 @@ After reviewer reports:
 5. Apply surgical edits first.
 6. Re-review only the changed risk areas unless the article was structurally rewritten.
 
+Record the synthesis and plan in the project workspace before editing when the project is long-running or evidence-sensitive. A concise `*_review_synthesis_*` or `*_revision_plan_*` file is enough; do not bury the plan only in chat if later agents will continue the work.
+
 ## Re-Review
 
 A re-review verifies whether changes actually addressed the prior issues. It should check:
@@ -98,6 +127,12 @@ For a dissertation Chicago-footnote pass:
 
 ```text
 Audit the dissertation chapter's Chicago Notes-Bibliography footnotes. Verify that each citation position has one note callout where appropriate, that multiple sources in one note are separated clearly, that printed pages were checked from the source files when available, that `file p.` appears only when printed pagination cannot be confirmed or does not exist, and that no unresolved page placeholders remain. Do not rewrite the chapter.
+```
+
+For a dissertation chapter full-workflow pass:
+
+```text
+Review this dissertation chapter as [role]. Use the current evidence log, source matrix, page-locator audit, and manuscript draft. Do not edit files. Return a decision-style report with blocking issues, major comments, citation/evidence risks, and concrete paragraph-level revision priorities. Flag any unsupported claim, overclaim, primary/secondary source confusion, or missing printed-page verification.
 ```
 
 For a full-dissertation consistency pass:

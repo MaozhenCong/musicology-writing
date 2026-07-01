@@ -152,6 +152,18 @@ Before final delivery, run these passes or subagents:
 
 The citation auditor must inspect original files for page locators. Do not accept "page needs correction" as final when the user asked for real printed pages.
 
+For long dissertation chapters, combine the musicology and music education roles only if the chapter's content makes them genuinely inseparable; do not combine citation auditing with argument review. The citation/evidence auditor must remain separate because page locators, primary-source boundaries, and bibliography correspondence are common failure points.
+
+When subagents are available and the user has explicitly requested subagents, independent agents, or parallel review, spawn separate reviewer subagents for the independent roles before finalizing. If the user asks for full workflow, strict process, or "不要跳过" without explicit subagent authorization, the reviewer gate still applies; run separate role-labeled reports in the main thread and state whether subagents were not authorized or not available. Save or summarize the reports and create a revision plan before editing.
+
+The dissertation-chapter reviewer gate is complete only when the project has:
+
+- reviewer reports or role-labeled reports;
+- a merged synthesis of issues;
+- a prioritized revision plan;
+- a revised draft that can be checked against the plan;
+- a final audit naming unresolved source or page-verification risks.
+
 ## Final DOCX Checklist
 
 - [ ] DOCX is the final deliverable unless PDF was requested.
@@ -161,6 +173,7 @@ The citation auditor must inspect original files for page locators. Do not accep
 - [ ] `file p.` appears only for sources without verifiable printed pagination.
 - [ ] Chinese source titles include English translation plus Chinese original.
 - [ ] Bibliography or references correspond to cited sources.
+- [ ] Reviewer/subagent gate was completed, with reports, synthesis, revision plan, and execution notes.
 - [ ] Rendered page QA or Word inspection confirms no blank pages or severe footnote overflow.
 - [ ] QA page images or temporary render files are not described as the final deliverable unless the user requested them.
 - [ ] Handoff states any remaining manual confirmations honestly.

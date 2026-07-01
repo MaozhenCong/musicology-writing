@@ -96,6 +96,32 @@ The log answers: “Which claims are safe to write?”
 9. If a source is a webpage, save title, institution, URL, date if visible, access date, and snapshot path if possible.
 10. Do not cite a source for a claim it only loosely resembles.
 
+## Primary-Locator Provenance
+
+Sometimes a secondary source, database record, or institutional summary identifies the exact primary source and page, while the primary page image is not yet locally available. Handle this in two layers:
+
+1. In working evidence files, record both the intended primary locator and the provenance source that supplied it.
+2. In the manuscript, follow the user's citation rule. If the user requires direct primary-page citation, cite the primary locator directly and do not write "as cited in" or "citing" in the footnote.
+3. In the audit or completion note, state whether the primary page image has actually been visually checked.
+4. Do not claim visual inspection of the primary page until it has happened.
+5. If the page is central to the argument and still unverified visually, keep it in the manual follow-up list rather than silently treating it as fully verified.
+
+This avoids both errors: hiding the source trail from future agents, and making the polished manuscript look like a secondary transfer when the user's rule is to use the primary page locator.
+
+## Replacement and Similar-Source Assessment
+
+When an exact source is missing and similar or additional sources have been imported:
+
+1. Decide what the missing source was supposed to prove.
+2. Compare each replacement source against that claim, not against the title alone.
+3. Classify replacements as:
+   - direct substitute: proves the same claim at comparable or stronger authority;
+   - partial substitute: supports context, method, or adjacent evidence only;
+   - source-locating aid: helps find primary material but should not support the final claim;
+   - not a substitute: belongs in excluded or background notes.
+4. Do not cite a replacement as if it were the missing source.
+5. Keep missing but important sources in the manual acquisition list when their evidentiary role is unique.
+
 ## Footnote Style Rules
 
 These rules apply across dissertation chapters, journal articles, conference papers, and revision packages unless a target style guide explicitly requires another system:

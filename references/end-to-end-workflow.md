@@ -104,6 +104,8 @@ Run these checks in order:
 
 Revise by priority. Fix blocking issues first; do not polish language while a method or evidence problem remains.
 
+For full-workflow, final-manuscript, or dissertation-chapter requests, do not treat this phase as complete until reviewer reports or role-labeled reports have been produced, synthesized, and converted into a revision plan. If the user explicitly requests subagents, independent agents, or parallel review and tools are available, use them before finalization; otherwise state the limitation and run distinct role-labeled passes in the main thread.
+
 ## Phase 8: Finalization and Submission
 
 Before submission:
@@ -112,7 +114,8 @@ Before submission:
 2. Inspect layout if DOCX/PDF matters.
 3. Remove comments, tracked changes, hidden identifying metadata, and accidental local paths.
 4. Prepare title page, anonymous version, cover letter, abstract, keywords, declarations, AI-use statement, funding/conflict/ethics/data statements.
-5. Record the exact submission date, route, ID, file names, email thread, and dashboard URL.
+5. Check that the reviewer gate, citation audit, page-locator audit, and final-layout audit have visible artifacts or explicit blocked/manual-follow-up notes.
+6. Record the exact submission date, route, ID, file names, email thread, and dashboard URL.
 
 After submission:
 
