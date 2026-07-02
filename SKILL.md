@@ -25,30 +25,38 @@ Use this skill to run a source-safe academic writing workflow for musicology and
 
 The default success criterion is not “a polished-looking essay.” It is a manuscript package whose claims can be traced to sources, whose scope matches the evidence, and whose final files fit the target journal or thesis requirement.
 
-This is one v1 skill with two explicit tracks, not two separate skills: a doctoral-dissertation track and a journal-article track. Keep them inside one skill because Zotero intake, evidence matrices, page verification, no-fabrication rules, and reviewer passes are shared. Separate them only at the workflow-reference level so citation style, output format, and project-state rules do not drift.
+This is one v1 skill with two explicit tracks, not two separate skills: a doctoral-dissertation track and a journal-article track. Keep them inside one skill because Zotero intake, evidence matrices, page verification, no-fabrication rules, and reviewer passes are shared. Separate them at the workflow-reference level so citation style, output format, and project-state rules do not drift. Dissertation defaults do not override a target journal's official instructions.
+
+## Track Boundaries
+
+- **Always shared:** source verification, no fabrication, exact page discipline, primary/secondary evidence distinction, backup-before-large-edit, reviewer/audit gates, and clear handoff.
+- **Dissertation defaults:** chapter-scale breadth, Chicago-style footnotes unless the institution says otherwise, full DOCX chapter delivery, dissertation bibliography consistency, and source/method framing designed for thesis chapters.
+- **Journal-specific:** word limit, anonymity, title page, abstract/keywords, reference style, footnote/endnote policy, file format, cover letter, declarations, figures/tables, and metadata. Verify these from the target journal's official site or submission system every time.
+- If a dissertation rule and a journal rule conflict, follow the journal rule for journal work and record the difference in the submission checklist.
 
 ## Operating Principles
 
 1. State assumptions and unresolved ambiguities before making consequential choices.
 2. Choose the track early: dissertation chapter, journal article, response to reviewers, withdrawal/resubmission, or exploratory planning.
-3. Keep each project, thesis chapter, or target journal in its own folder/status record unless the user explicitly asks for comparison.
-4. For journal articles, prefer the smallest publishable topic over a broad dissertation-scale theme; for thesis chapters, preserve breadth but make every claim evidence-bound.
-5. For full-dissertation or dissertation-chapter DOCX work, default to a DOCX deliverable and do not generate a final PDF unless the user asks for it. Render pages only for layout QA when needed.
-6. Treat citation priority as content-driven: do not drop or demote relevant literature merely because page extraction is difficult.
-7. Treat official requirements, source PDFs, verified web snapshots, and saved correspondence as stronger evidence than memory or search snippets.
-8. Do not invent facts, page numbers, source contents, deadlines, fees, editorial policies, issue timing, or reviewer comments.
-9. Preserve project artifacts: source matrix, evidence log, reading notes, outline, draft, reviewer reports, revision plan, final checklist, and submission record.
-10. Treat workflow stages as gates, not suggestions. When the user asks to follow the full skill workflow, continue through every required gate until complete or explicitly blocked; do not stop after drafting, citation checking, or file generation if reviewer, revision, audit, or final-package gates remain.
-11. Before large edits or automated file repair, create a clearly named backup or working copy. Do not overwrite the user's only editable manuscript.
-12. Classify work before editing: substantive argument revision, source verification, style polishing, formatting repair, journal compliance, or final-package assembly. Report which category was handled.
-13. After editing, hand off the updated file path, change summary, unresolved issues, user-confirmation items, and verification status.
+3. Treat recent DOCX, citation, and primary-source lessons as doctoral-dissertation safety defaults unless they are listed above as always shared. For journal submissions, re-check and follow the specific journal's official guidelines even when they differ from dissertation practice.
+4. Keep each project, thesis chapter, or target journal in its own folder/status record unless the user explicitly asks for comparison.
+5. For journal articles, prefer the smallest publishable topic over a broad dissertation-scale theme; for thesis chapters, preserve breadth but make every claim evidence-bound.
+6. For full-dissertation or dissertation-chapter DOCX work, default to a DOCX deliverable and do not generate a final PDF unless the user asks for it. Render pages only for layout QA when needed.
+7. Treat citation priority as content-driven: do not drop or demote relevant literature merely because page extraction is difficult.
+8. Treat official requirements, source PDFs, verified web snapshots, and saved correspondence as stronger evidence than memory or search snippets.
+9. Do not invent facts, page numbers, source contents, deadlines, fees, editorial policies, issue timing, or reviewer comments.
+10. Preserve project artifacts: source matrix, evidence log, reading notes, outline, draft, reviewer reports, revision plan, final checklist, and submission record.
+11. Treat workflow stages as gates, not suggestions. When the user asks to follow the full skill workflow, continue through every required gate until complete or explicitly blocked; do not stop after drafting, citation checking, or file generation if reviewer, revision, audit, or final-package gates remain.
+12. Before large edits or automated file repair, create a clearly named backup or working copy. Do not overwrite the user's only editable manuscript.
+13. Classify work before editing: substantive argument revision, source verification, style polishing, formatting repair, journal compliance, or final-package assembly. Report which category was handled.
+14. After editing, hand off the updated file path, change summary, unresolved issues, user-confirmation items, and verification status.
 
 ## DOCX and Word Safety
 
 Use native Word/DOCX handling conservatively because musicology manuscripts often depend on footnotes, italics, non-Latin characters, and bibliography formatting.
 
 1. Prefer editing and saving native `.docx` files. Avoid format round-trips through LibreOffice, ODT, HTML, PDF, or other intermediates for final formatting unless needed to rescue a damaged file or explicitly requested.
-2. Preserve Word footnotes as real footnotes with superscript body references and page-bottom note text; do not replace them with typed numbers, endnotes, plain paragraphs, or manually assembled note lists.
+2. For dissertation chapters using footnotes, preserve Word footnotes as real footnotes with superscript body references and page-bottom note text; do not replace them with typed numbers, endnotes, plain paragraphs, or manually assembled note lists. For journal manuscripts, first check whether the journal requires footnotes, endnotes, author-date citations, or another system.
 3. Preserve headings, bibliography, italics, Chinese characters, Polish/French/Spanish diacritics, and Chicago note punctuation during automated edits.
 4. If Microsoft Word reports unreadable content or asks to recover a document, stop iterative blind repair. Preserve the original, open the recovered content only when necessary, and save the recovered document immediately under a new clean `.docx` filename before continuing.
 5. When automating Word on macOS, operate on the active recovered document when Word is in a dialog/recovery state. Avoid fragile assumptions such as `count documents`; first verify the active document name and save a new copy.
@@ -112,16 +120,18 @@ Load only the reference files required for the current phase.
 11. If a source is unreadable, incomplete, or only metadata-level, label it as such and do not use it for exact claims.
 12. Similarity-risk control is a writing constraint: avoid reusing dissertation phrasing, previously submitted article structures, or high-risk topic-word clusters.
 13. Do not invent DOI, page numbers, publication places, journal issue numbers, translated titles, institutional titles, or source contents. If DOI or other metadata is absent, mark it absent or needs verification instead of fabricating it.
-14. For Chinese sources in English-language manuscripts, use one consistent format: English translation or romanized author/title form first when appropriate, with Chinese characters in parentheses for verification. Preserve original Chinese titles, publishers, and institutions where needed.
+14. For dissertation chapters in English, use one consistent Chinese-source format unless the institution requires otherwise: English translation or romanized author/title form first when appropriate, with Chinese characters in parentheses for verification. For journal articles, follow the target journal's citation style while still preserving enough Chinese metadata for verification.
 15. Verify every added reference before inserting it. Add references only when they support a specific claim, strengthen the argument, or broaden a comparison in a defensible way; never inflate a bibliography for appearance.
 16. Separate primary sources, secondary scholarship, institutional documents, and methodological references in notes, matrices, or discussion when the distinction helps the reader understand evidentiary status.
 
 ## Journal Submission Compliance
 
-1. Check official journal guidelines directly before making claims about word/character limit, anonymity, author-information files, abstract and keyword requirements, reference style, file format, cover letters, declarations, fees, or submission route.
-2. Do not infer anonymous-manuscript requirements, separate title pages, or cover-letter rules unless the guidelines explicitly say so.
-3. Record journal rules as `required`, `recommended`, or `not specified`. If a guideline says 4000-8000 words, do not replace it with an invented limit.
-4. Keep a submission checklist and save evidence from official pages, OJS screens, editor emails, or downloaded guidelines.
+1. For journal work, official target-journal guidelines control over dissertation defaults, prior experience, and generic style assumptions.
+2. Check official journal guidelines directly before making claims about word/character limit, anonymity, author-information files, abstract and keyword requirements, reference style, file format, cover letters, declarations, fees, or submission route.
+3. Do not infer anonymous-manuscript requirements, separate title pages, or cover-letter rules unless the guidelines explicitly say so.
+4. Record journal rules as `required`, `recommended`, or `not specified`. If a guideline says 4000-8000 words, do not replace it with an invented limit.
+5. Do not apply dissertation footnote, bibliography, heading, file-naming, or DOCX layout defaults to a journal article until the official journal requirements have been checked.
+6. Keep a submission checklist and save evidence from official pages, OJS screens, editor emails, or downloaded guidelines.
 
 ## Reviewer / Subagent Rule
 
