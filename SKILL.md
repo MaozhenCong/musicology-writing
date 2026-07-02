@@ -39,6 +39,29 @@ This is one v1 skill with two explicit tracks, not two separate skills: a doctor
 8. Do not invent facts, page numbers, source contents, deadlines, fees, editorial policies, issue timing, or reviewer comments.
 9. Preserve project artifacts: source matrix, evidence log, reading notes, outline, draft, reviewer reports, revision plan, final checklist, and submission record.
 10. Treat workflow stages as gates, not suggestions. When the user asks to follow the full skill workflow, continue through every required gate until complete or explicitly blocked; do not stop after drafting, citation checking, or file generation if reviewer, revision, audit, or final-package gates remain.
+11. Before large edits or automated file repair, create a clearly named backup or working copy. Do not overwrite the user's only editable manuscript.
+12. Classify work before editing: substantive argument revision, source verification, style polishing, formatting repair, journal compliance, or final-package assembly. Report which category was handled.
+13. After editing, hand off the updated file path, change summary, unresolved issues, user-confirmation items, and verification status.
+
+## DOCX and Word Safety
+
+Use native Word/DOCX handling conservatively because musicology manuscripts often depend on footnotes, italics, non-Latin characters, and bibliography formatting.
+
+1. Prefer editing and saving native `.docx` files. Avoid format round-trips through LibreOffice, ODT, HTML, PDF, or other intermediates for final formatting unless needed to rescue a damaged file or explicitly requested.
+2. Preserve Word footnotes as real footnotes with superscript body references and page-bottom note text; do not replace them with typed numbers, endnotes, plain paragraphs, or manually assembled note lists.
+3. Preserve headings, bibliography, italics, Chinese characters, Polish/French/Spanish diacritics, and Chicago note punctuation during automated edits.
+4. If Microsoft Word reports unreadable content or asks to recover a document, stop iterative blind repair. Preserve the original, open the recovered content only when necessary, and save the recovered document immediately under a new clean `.docx` filename before continuing.
+5. When automating Word on macOS, operate on the active recovered document when Word is in a dialog/recovery state. Avoid fragile assumptions such as `count documents`; first verify the active document name and save a new copy.
+6. After automated DOCX repair or generation, validate both structurally and practically: check footnote-reference/definition counts, inspect rendered pages, and when possible confirm that Microsoft Word opens the file without a recovery dialog.
+7. Long footnotes can still cross pages in real Word layout. To reduce this risk, split overloaded prose into source-specific sentences, keep each footnote compact, and avoid large authority-accumulation notes.
+
+## Musicology Argumentation Standards
+
+1. Keep primary-source strategy inside the general source and methodology discussion unless the genre explicitly requires a separate citation-policy section.
+2. Use secondary scholarship for its own argument. If a secondary source merely points to an accessible primary source, trace through to the primary source and cite it directly whenever feasible.
+3. Avoid unnecessary second-hand citation. Use "quoted in," "cited in," or "discussed in" only when the primary source cannot be accessed and the dependency must be disclosed.
+4. Do not overclaim direct influence, lineage, reception, classroom practice, or audience effect unless the evidence proves it. Use careful formulations such as "mediating framework," "analytical metalanguage," "institutional discourse," "pedagogical adaptation," "published pedagogical discourse," or "documented reception trace" when the evidence supports a more limited claim.
+5. Keep claims modest, defensible, and evidence-bound for doctoral musicology and peer review. Prefer a narrower proven claim over a broader attractive claim.
 
 ## Workflow Router
 
@@ -88,6 +111,17 @@ Load only the reference files required for the current phase.
 10. Treat machine translations and AI summaries as reading aids only. Do not cite them as sources.
 11. If a source is unreadable, incomplete, or only metadata-level, label it as such and do not use it for exact claims.
 12. Similarity-risk control is a writing constraint: avoid reusing dissertation phrasing, previously submitted article structures, or high-risk topic-word clusters.
+13. Do not invent DOI, page numbers, publication places, journal issue numbers, translated titles, institutional titles, or source contents. If DOI or other metadata is absent, mark it absent or needs verification instead of fabricating it.
+14. For Chinese sources in English-language manuscripts, use one consistent format: English translation or romanized author/title form first when appropriate, with Chinese characters in parentheses for verification. Preserve original Chinese titles, publishers, and institutions where needed.
+15. Verify every added reference before inserting it. Add references only when they support a specific claim, strengthen the argument, or broaden a comparison in a defensible way; never inflate a bibliography for appearance.
+16. Separate primary sources, secondary scholarship, institutional documents, and methodological references in notes, matrices, or discussion when the distinction helps the reader understand evidentiary status.
+
+## Journal Submission Compliance
+
+1. Check official journal guidelines directly before making claims about word/character limit, anonymity, author-information files, abstract and keyword requirements, reference style, file format, cover letters, declarations, fees, or submission route.
+2. Do not infer anonymous-manuscript requirements, separate title pages, or cover-letter rules unless the guidelines explicitly say so.
+3. Record journal rules as `required`, `recommended`, or `not specified`. If a guideline says 4000-8000 words, do not replace it with an invented limit.
+4. Keep a submission checklist and save evidence from official pages, OJS screens, editor emails, or downloaded guidelines.
 
 ## Reviewer / Subagent Rule
 
