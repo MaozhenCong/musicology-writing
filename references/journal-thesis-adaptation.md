@@ -40,6 +40,8 @@ checked date:
 
 Only use official pages, author guidelines, OJS pages, journal PDFs, editor emails, or supervisor/doctoral-office documents as requirement evidence.
 
+General academic-writing guides, music-writing handbooks, and library guides may inform process choices such as prospectus planning, annotated reading notes, synthesis, and reverse outlining. They do not override a target journal's author instructions, OJS fields, editor correspondence, supervisor directions, or university thesis rules.
+
 ## Journal-Fit Adaptation
 
 Adapt the same research area differently depending on target:

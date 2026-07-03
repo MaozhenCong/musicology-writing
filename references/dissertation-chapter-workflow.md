@@ -22,6 +22,8 @@ Confirm or infer:
 
 If the user says DOCX only, generate DOCX as the final artifact. Rendering pages for QA is allowed, but do not hand off a final PDF.
 
+For continuation work, identify the latest authoritative draft, latest page/citation audit, latest reviewer synthesis, and any known unresolved primary-page or full-text issues before editing. Do not choose a draft by filename alone if a newer audit says another file is authoritative.
+
 For this user's dissertation work, apply the same footnote logic as all other writing tracks: avoid stacking several note callouts after one sentence; split prose into source-specific claims where possible; use one note callout per citation position; put multiple same-position sources inside that note separated by semicolons only when the claim genuinely needs them together.
 
 ## Full-Dissertation Workspace
@@ -43,6 +45,20 @@ dissertation/
 ```
 
 Use whatever folder names already exist in the user's workspace, but preserve the same logical separation: dissertation-wide status, dissertation-wide source/evidence/page audits, chapter drafts, and final outputs.
+
+## Prospectus or Chapter-Plan Gate
+
+Before expanding a dissertation chapter substantially, create or update a prospectus-style plan with:
+
+1. working title and chapter function in the full dissertation;
+2. summary of the chapter argument;
+3. justification for why this chapter belongs in the dissertation;
+4. intended method and source corpus;
+5. outline or table of contents;
+6. bibliography/source-readiness list;
+7. page target and what must not be inflated without evidence.
+
+For a full dissertation, maintain both dissertation-wide and chapter-level plans so future agents can distinguish overall thesis logic from the current chapter task.
 
 ## Chapter Architecture
 
@@ -140,6 +156,8 @@ Write from the evidence map:
 - Avoid claiming national, institutional, pedagogical, or student-outcome effects unless the cited corpus directly supports them.
 - Mark unresolved evidence in working notes, not in polished prose, unless the limitation belongs in the method section.
 
+After a complete draft exists, create a reverse outline before polishing: one short function statement per paragraph or paragraph group, plus whether it advances the chapter claim, supplies evidence, handles historiography, explains method, or should be cut/merged.
+
 ## Reviewer Passes
 
 Before final delivery, run these passes or subagents:
@@ -174,6 +192,7 @@ The dissertation-chapter reviewer gate is complete only when the project has:
 - [ ] Chinese source titles include English translation plus Chinese original.
 - [ ] Bibliography or references correspond to cited sources.
 - [ ] Reviewer/subagent gate was completed, with reports, synthesis, revision plan, and execution notes.
+- [ ] Reverse-outline or paragraph-function audit confirms the chapter is not just an expanded source list.
 - [ ] Rendered page QA or Word inspection confirms no blank pages or severe footnote overflow.
 - [ ] QA page images or temporary render files are not described as the final deliverable unless the user requested them.
 - [ ] Handoff states any remaining manual confirmations honestly.

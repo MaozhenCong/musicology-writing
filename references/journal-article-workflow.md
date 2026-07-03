@@ -33,6 +33,8 @@ active_journals/
 
 Follow existing project names when present, but preserve the separation between draft, submitted, and revision files.
 
+Before editing an existing lane, read `status.md` and `submission_record.md` when present. If the lane is submitted or under review, do not revise, replace, or resubmit files unless the journal, editor, or user explicitly requests that action.
+
 ## Target Audit
 
 Before drafting or finalizing, verify official requirements from journal pages, OJS pages, author guidelines, saved PDFs, or editor email:
@@ -59,6 +61,18 @@ When publication is needed for doctoral progress:
 4. Save evidence of official list status, deadline, fee policy, and submission route.
 5. Treat acceptance or online-first as sufficient only if the doctoral rule confirms it.
 
+## Dissertation-to-Article Transfer
+
+When an article grows out of dissertation material, do not compress a chapter into a journal manuscript mechanically. Create a new article decision record with:
+
+- a distinct research question, thesis, corpus, and central vocabulary;
+- a clear statement of what dissertation material is excluded;
+- evidence that the target journal fits this narrower article;
+- similarity-risk checks against the dissertation and all adjacent journal lanes;
+- rewritten and re-evidenced prose rather than copied chapter paragraphs.
+
+Use dissertation evidence as a resource, not as permission to reuse structure, claims, or wording.
+
 ## Citation and Footnote Handling
 
 The general citation rule applies here too: avoid piling multiple note callouts after one sentence. When several sources make different points, split the prose into separate source-specific sentences and cite each sentence separately.
@@ -78,6 +92,7 @@ Before submission:
 - compare title, abstract, headings, and key phrases against the user's dissertation and other submitted articles;
 - change corpus, framing, and central vocabulary for adjacent article lanes;
 - avoid reusing the same introduction architecture across journals;
+- check whether the article's literature review synthesizes a conversation rather than summarizing one source per paragraph;
 - do not copy attractive paragraphs from a dissertation chapter without rewriting and re-evidencing them;
 - make overlap transparent if the journal requires disclosure.
 

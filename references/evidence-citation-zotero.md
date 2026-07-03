@@ -34,6 +34,14 @@ type:
 language:
 full text status:
 
+## Summary
+- main argument or documented fact:
+
+## Assessment
+- reliability/method:
+- scope:
+- limits:
+
 ## What it can support
 - claim:
 - page/evidence location:
@@ -47,6 +55,10 @@ full text status:
 - corrected metadata:
 - DOI/URL:
 - translation/title handling:
+
+## How it changes the project
+- use in argument:
+- relation to other sources:
 ```
 
 ## Source Matrix Minimum Columns
@@ -82,6 +94,22 @@ Use a table or TSV with:
 - notes
 
 The log answers: “Which claims are safe to write?”
+
+## Source Synthesis Map
+
+For literature reviews, dissertation introductions, and theoretical sections, create a source-synthesis map before drafting. It should group sources by relationship rather than bibliography order:
+
+- agreement or shared premise;
+- disagreement or tension;
+- methodological family;
+- corpus or archive type;
+- historical period or institution;
+- outlier or counterexample;
+- source-locating aid rather than direct evidence.
+
+Use the map to decide paragraph order. A paragraph that cites only one source may still be valid, but a long literature review made of one-source paragraphs is usually summary rather than synthesis.
+
+Do not force a relationship between sources. If a source does not belong in a synthesis group, mark it as an outlier, context source, or excluded source.
 
 ## Page and Web Evidence Rules
 

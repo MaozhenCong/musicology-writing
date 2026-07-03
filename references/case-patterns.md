@@ -43,6 +43,20 @@ Reusable lesson:
 
 Curriculum documents support claims about formal positioning and intended structure. They do not, by themselves, prove actual pedagogy or outcomes.
 
+## Pattern 4: Dissertation Chapter with Page-Locator Discipline
+
+Observed shape:
+
+- A dissertation introduction and chapter draft required DOCX delivery with real Word footnotes, not PDF as the final artifact.
+- Zotero records, source notes, OCR/page text, page-locator audits, and reviewer reports had to agree before finalization.
+- Chinese-source handling needed English titles plus Chinese originals, not pinyin title substitutions.
+- Primary locators sometimes came from a facsimile edition or source-locating aid; the audit had to preserve whether the primary page image had actually been visually checked.
+- Structural expansion was safe only after a chapter plan, evidence matrix, and citation/page audit existed.
+
+Reusable lesson:
+
+For dissertation work, length is not progress unless chapter function, source readiness, page locators, and DOCX footnote integrity are all controlled.
+
 ## Cross-Case Rules
 
 1. Keep each journal or thesis target isolated.
@@ -51,3 +65,4 @@ Curriculum documents support claims about formal positioning and intended struct
 4. Use reviewer critique before formatting, not after.
 5. Freeze submitted files after acknowledgement.
 6. Convert local project knowledge into templates and matrices so another agent can resume without guessing.
+7. For dissertation and publication workflows using the same source base, transfer evidence deliberately but keep claims, structure, vocabulary, and final files separate.

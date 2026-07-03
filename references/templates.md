@@ -53,6 +53,51 @@ target:
 ## Similarity or overlap risks
 ```
 
+## Project State Snapshot
+
+```markdown
+# Project State Snapshot
+
+date:
+workspace:
+track:
+current state:
+latest authoritative draft:
+latest audit/checklist:
+source/evidence files:
+submitted or frozen files:
+
+## What is safe to edit
+
+## What must not be changed
+
+## Conflicts or uncertainties
+```
+
+## Prospectus or Chapter Plan
+
+```markdown
+# Prospectus or Chapter Plan
+
+date:
+working title:
+dissertation/article function:
+
+## Summary of argument
+
+## Justification
+
+## Research questions
+
+## Method and corpus
+
+## Outline or table of contents
+
+## Bibliography/source readiness
+
+## Limits and stop conditions
+```
+
 ## Source Matrix
 
 ```tsv
@@ -65,6 +110,13 @@ S001
 ```tsv
 claim_id	claim_text	evidence_source	source_location_or_page	manuscript_location	risk_level	verification_status	notes
 C001
+```
+
+## Source Synthesis Map
+
+```tsv
+group_id	relationship_type	sources	shared_issue	tension_or_outlier	use_in_manuscript	notes
+G001	agreement/disagreement/method/corpus/outlier
 ```
 
 ## Page Locator Audit
@@ -96,6 +148,13 @@ note_id	manuscript_location	sources_in_note	style_ok	page_locators_ok	action_nee
 - word target:
 
 ## Section 2
+```
+
+## Reverse Outline Audit
+
+```tsv
+location	paragraph_function	thesis_connection	evidence_used	action	notes
+Introduction paragraph 1	problem statement	yes	none yet	keep/add evidence
 ```
 
 ## Reading Note

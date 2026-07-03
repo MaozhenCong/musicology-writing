@@ -28,7 +28,8 @@ Run at least one strict pass. For high-stakes submission, use several distinct p
 2. Field reviewer: musicology/music education relevance, literature positioning, terminology.
 3. Method reviewer: corpus, source selection, document-analysis logic, limits.
 4. Citation auditor: page numbers, reference correspondence, Chinese titles/translations, DOI/URL accuracy.
-5. Devil's advocate: strongest counterargument, overclaiming, missing alternative explanation, similarity risk.
+5. Structure reviewer: reverse outline, paragraph function, section order, repetition, and whether the draft is organized by argument rather than by source list.
+6. Devil's advocate: strongest counterargument, overclaiming, missing alternative explanation, similarity risk.
 
 If subagents are available and explicitly authorized for the current task, run them independently. If not, perform separate role-labeled passes in one thread and keep the outputs separate.
 
@@ -48,6 +49,7 @@ Provide:
 - manuscript draft;
 - target journal or thesis requirements;
 - source matrix and evidence log if available;
+- source-synthesis map, reverse outline, or chapter/article plan if available;
 - current research questions;
 - known constraints such as word limit, anonymity, similarity risk, or no new sources.
 
@@ -92,8 +94,9 @@ After reviewer reports:
 2. Separate blocking issues from optional polish.
 3. Reject suggestions that would violate the evidence boundary, target scope, or deadline.
 4. Create a prioritized revision plan.
-5. Apply surgical edits first.
-6. Re-review only the changed risk areas unless the article was structurally rewritten.
+5. If the critique concerns structure, create or update a reverse outline before editing.
+6. Apply surgical edits first.
+7. Re-review only the changed risk areas unless the article was structurally rewritten.
 
 Record the synthesis and plan in the project workspace before editing when the project is long-running or evidence-sensitive. A concise `*_review_synthesis_*` or `*_revision_plan_*` file is enough; do not bury the plan only in chat if later agents will continue the work.
 
@@ -133,6 +136,12 @@ For a dissertation chapter full-workflow pass:
 
 ```text
 Review this dissertation chapter as [role]. Use the current evidence log, source matrix, page-locator audit, and manuscript draft. Do not edit files. Return a decision-style report with blocking issues, major comments, citation/evidence risks, and concrete paragraph-level revision priorities. Flag any unsupported claim, overclaim, primary/secondary source confusion, or missing printed-page verification.
+```
+
+For a reverse-outline structure pass:
+
+```text
+Create a reverse outline of this draft. For each paragraph or paragraph group, identify its function, relationship to the thesis or research question, evidence used, repetition, and whether it should be kept, moved, merged, split, or cut. Do not rewrite the manuscript.
 ```
 
 For a full-dissertation consistency pass:

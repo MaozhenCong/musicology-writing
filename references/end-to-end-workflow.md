@@ -2,6 +2,18 @@
 
 Use this reference when the task spans more than one phase, especially from topic selection to final submission.
 
+## Phase -1: Project State Discovery
+
+For an existing workspace, inspect the project before deciding what to do:
+
+1. Read the status/handoff file, latest checklist or audit, active draft path, source matrix, evidence log, and submission record when they exist.
+2. Identify the active state: exploratory, drafting, final-package assembly, submitted/under review, revision requested, withdrawn, or monitoring.
+3. Identify frozen files that must not be overwritten, especially submitted manuscripts and archived submission packages.
+4. Name the latest authoritative draft and the latest audit before editing.
+5. If status files disagree, trust the newest evidence-backed status and report the conflict.
+
+Do not continue a project from memory alone when project-local records exist.
+
 ## Phase 0: Intake
 
 Record these fields before work begins:
@@ -62,9 +74,17 @@ Read for claims, not just summaries:
 - Limits and what the source cannot prove.
 - Citation metadata requiring correction.
 
+Each important source should also be annotated in three functions:
+
+- summarize what the source argues or documents;
+- assess reliability, method, scope, and limits;
+- reflect on how it can or cannot shape the current manuscript.
+
+For large sources or dense theoretical texts, create a short reverse outline while reading: one sentence per major section or paragraph group, plus the possible use in the project.
+
 For web and institutional sources, preserve titles, issuing institution, date if visible, URL, access date, and snapshot path if available.
 
-## Phase 5: Article Architecture
+## Phase 5: Architecture or Prospectus
 
 Create an architecture document with:
 
@@ -77,6 +97,14 @@ Create an architecture document with:
 - Target-journal fit notes.
 
 The outline must be a claim-evidence map, not a decorative table of contents.
+
+For dissertation chapters or prospectus-like work, also include:
+
+- justification for why the research should be undertaken;
+- method and corpus statement;
+- chapter outline or table of contents;
+- substantial bibliography or source-readiness list;
+- what must be checked with the supervisor, doctoral office, or institutional rules.
 
 ## Phase 6: Drafting
 
@@ -95,12 +123,14 @@ When evidence is thin, reduce the claim rather than adding unsupported prose.
 
 Run these checks in order:
 
-1. Scope check: no claim broader than corpus.
-2. Evidence check: each important claim maps to evidence.
-3. Citation check: pages, URLs, reference list, transliteration/translation.
-4. Target check: structure, length, style, anonymity, declarations.
-5. Reviewer check: desk-rejection risks, contribution, method, repetition, weak terminology.
-6. Similarity-risk check: title, headings, repeated phrases, overlap with previous submissions or thesis.
+1. Reverse-outline check: every paragraph has one function and relates to the thesis or research question.
+2. Scope check: no claim broader than corpus.
+3. Evidence check: each important claim maps to evidence.
+4. Synthesis check: sources are grouped by relationship, agreement, disagreement, method, or outlier status rather than listed one by one.
+5. Citation check: pages, URLs, reference list, transliteration/translation.
+6. Target check: structure, length, style, anonymity, declarations.
+7. Reviewer check: desk-rejection risks, contribution, method, repetition, weak terminology.
+8. Similarity-risk check: title, headings, repeated phrases, overlap with previous submissions or thesis.
 
 Revise by priority. Fix blocking issues first; do not polish language while a method or evidence problem remains.
 

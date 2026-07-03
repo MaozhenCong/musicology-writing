@@ -39,17 +39,18 @@ This is one v1 skill with two explicit tracks, not two separate skills: a doctor
 1. State assumptions and unresolved ambiguities before making consequential choices.
 2. Choose the track early: dissertation chapter, journal article, response to reviewers, withdrawal/resubmission, or exploratory planning.
 3. Treat recent DOCX, citation, and primary-source lessons as doctoral-dissertation safety defaults unless they are listed above as always shared. For journal submissions, re-check and follow the specific journal's official guidelines even when they differ from dissertation practice.
-4. Keep each project, thesis chapter, or target journal in its own folder/status record unless the user explicitly asks for comparison.
-5. For journal articles, prefer the smallest publishable topic over a broad dissertation-scale theme; for thesis chapters, preserve breadth but make every claim evidence-bound.
-6. For full-dissertation or dissertation-chapter DOCX work, default to a DOCX deliverable and do not generate a final PDF unless the user asks for it. Render pages only for layout QA when needed.
-7. Treat citation priority as content-driven: do not drop or demote relevant literature merely because page extraction is difficult.
-8. Treat official requirements, source PDFs, verified web snapshots, and saved correspondence as stronger evidence than memory or search snippets.
-9. Do not invent facts, page numbers, source contents, deadlines, fees, editorial policies, issue timing, or reviewer comments.
-10. Preserve project artifacts: source matrix, evidence log, reading notes, outline, draft, reviewer reports, revision plan, final checklist, and submission record.
-11. Treat workflow stages as gates, not suggestions. When the user asks to follow the full skill workflow, continue through every required gate until complete or explicitly blocked; do not stop after drafting, citation checking, or file generation if reviewer, revision, audit, or final-package gates remain.
-12. Before large edits or automated file repair, create a clearly named backup or working copy. Do not overwrite the user's only editable manuscript.
-13. Classify work before editing: substantive argument revision, source verification, style polishing, formatting repair, journal compliance, or final-package assembly. Report which category was handled.
-14. After editing, hand off the updated file path, change summary, unresolved issues, user-confirmation items, and verification status.
+4. Before editing an existing long-running workspace, read its status or handoff files, latest audit/checklist, active draft, source/evidence records, and any submission record. Identify whether the work is drafting, submitted/under review, revision, monitoring, or withdrawn.
+5. Keep each project, thesis chapter, or target journal in its own folder/status record unless the user explicitly asks for comparison.
+6. For journal articles, prefer the smallest publishable topic over a broad dissertation-scale theme; for thesis chapters, preserve breadth but make every claim evidence-bound.
+7. For full-dissertation or dissertation-chapter DOCX work, default to a DOCX deliverable and do not generate a final PDF unless the user asks for it. Render pages only for layout QA when needed.
+8. Treat citation priority as content-driven: do not drop or demote relevant literature merely because page extraction is difficult.
+9. Treat official requirements, source PDFs, verified web snapshots, saved correspondence, and project-local status records as stronger evidence than memory or search snippets.
+10. Do not invent facts, page numbers, source contents, deadlines, fees, editorial policies, issue timing, or reviewer comments.
+11. Preserve project artifacts: status snapshot, source matrix, evidence log, reading notes, claim-evidence outline, reverse-outline or structure audit, draft, reviewer reports, revision plan, final checklist, and submission record.
+12. Treat workflow stages as gates, not suggestions. When the user asks to follow the full skill workflow, continue through every required gate until complete or explicitly blocked; do not stop after drafting, citation checking, or file generation if reviewer, revision, audit, or final-package gates remain.
+13. Before large edits or automated file repair, create a clearly named backup or working copy. Do not overwrite the user's only editable manuscript.
+14. Classify work before editing: substantive argument revision, source verification, style polishing, formatting repair, journal compliance, or final-package assembly. Report which category was handled.
+15. After editing, hand off the updated file path, change summary, unresolved issues, user-confirmation items, and verification status.
 
 ## DOCX and Word Safety
 
@@ -82,6 +83,7 @@ Use native Word/DOCX handling conservatively because musicology manuscripts ofte
 - Running reviewer/subagent critique: read `references/reviewer-subagent-protocol.md`.
 - Needing reusable tables/checklists: read `references/templates.md`.
 - Needing examples from the three observed submission patterns: read `references/case-patterns.md`.
+- Reassessing or improving this workflow from real project use: read `references/end-to-end-workflow.md`, then the relevant track file, `references/evidence-citation-zotero.md`, and `references/templates.md`.
 - Withdrawing a submission, cancelling a submission, or resubmitting to a new target: read `references/withdraw-resubmit.md`.
 - Sharing through GitHub or using this skill with non-Codex agents: read `references/agent-portability.md`.
 
@@ -89,21 +91,23 @@ Load only the reference files required for the current phase.
 
 ## End-to-End Stages
 
-1. Intake and boundaries: identify track, output type, language, target, deadline, evidence already available, and what must not be mixed with other projects.
-2. Topic selection: narrow the topic until it can be supported by available sources without overclaiming.
-3. Target fit: verify journal or thesis requirements from official sources and save the evidence.
-4. Literature discovery and Zotero intake: search, download, import, tag, and record what is readable.
-5. Reading and annotation: create source notes and extract exact claims with page numbers or stable web evidence.
-6. Evidence system: maintain a source matrix and evidence log before heavy drafting.
-7. Architecture: build a claim-evidence outline, not just a heading list.
-8. Literature review and method: synthesize by theme and state corpus limits honestly.
-9. Drafting: write section by section from the evidence map; mark gaps instead of filling them with guesses.
-10. Citation audit: check every substantive claim, quote, paraphrase, page number, and reference-list entry.
-11. Reviewer loop: use strict reviewer passes or subagents to identify desk-rejection risks, weak claims, missing evidence, and format problems. This gate is complete only after reviewer reports or role-labeled reports are saved or summarized, and a revision plan is created.
-12. Revision: revise against a prioritized plan; avoid broad rewrites when two surgical edits solve the issue. This gate is complete only after the revised text is checked against the reviewer plan.
-13. Final package: generate the manuscript, metadata, declarations, cover letter or OJS fields, and final checklist.
-14. Submission and monitoring: record exact submission details; after submission, freeze the submitted version unless the journal requests revision.
-15. Withdrawal and resubmission (/cancel-subscription): verify withdrawal reason, draft withdrawal letter, freeze records, update project status, and if resubmitting, re-check target fit and similarity risk before creating a new lane.
+1. Project-state discovery: identify the active folder/lane/chapter, current status, latest authoritative draft, frozen submitted files, and stop conditions before changing anything.
+2. Intake and boundaries: identify track, output type, language, target, deadline, evidence already available, and what must not be mixed with other projects.
+3. Topic selection: narrow the topic until it can be supported by available sources without overclaiming.
+4. Target fit: verify journal or thesis requirements from official sources and save the evidence.
+5. Literature discovery and Zotero intake: search, download, import, tag, and record what is readable.
+6. Reading and annotation: create source notes that summarize, assess, and state how each source can be used; extract exact claims with page numbers or stable web evidence.
+7. Evidence system: maintain a source matrix, evidence log, page-locator audit, and source-synthesis map before heavy drafting.
+8. Architecture: build a claim-evidence outline or prospectus-style plan, not just a heading list.
+9. Literature review and method: synthesize by theme, method, corpus, and outlier evidence; state corpus limits honestly.
+10. Drafting: write section by section from the evidence map; mark gaps instead of filling them with guesses.
+11. Structural audit: after a full draft, create a reverse outline or paragraph-function check before polishing.
+12. Citation audit: check every substantive claim, quote, paraphrase, page number, and reference-list entry.
+13. Reviewer loop: use strict reviewer passes or subagents to identify desk-rejection risks, weak claims, missing evidence, and format problems. This gate is complete only after reviewer reports or role-labeled reports are saved or summarized, and a revision plan is created.
+14. Revision: revise against a prioritized plan; avoid broad rewrites when two surgical edits solve the issue. This gate is complete only after the revised text is checked against the reviewer plan.
+15. Final package: generate the manuscript, metadata, declarations, cover letter or OJS fields, and final checklist.
+16. Submission and monitoring: record exact submission details; after submission, freeze the submitted version unless the journal requests revision.
+17. Withdrawal and resubmission (/cancel-subscription): verify withdrawal reason, draft withdrawal letter, freeze records, update project status, and if resubmitting, re-check target fit and similarity risk before creating a new lane.
 
 ## Source and Citation Rules
 
