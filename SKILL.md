@@ -51,6 +51,7 @@ This is one v1 skill with two explicit tracks, not two separate skills: a doctor
 13. Before large edits or automated file repair, create a clearly named backup or working copy. Do not overwrite the user's only editable manuscript.
 14. Classify work before editing: substantive argument revision, source verification, style polishing, formatting repair, journal compliance, or final-package assembly. Report which category was handled.
 15. After editing, hand off the updated file path, change summary, unresolved issues, user-confirmation items, and verification status.
+16. For reception-history dissertation work, keep the chapter centered on the receiver's horizon of expectation: identify the receiver group, prior musical/cultural horizon, source-proven trigger, and horizon change before expanding chronology, repertoire, or institutional background.
 
 ## DOCX and Word Safety
 
@@ -71,6 +72,7 @@ Use native Word/DOCX handling conservatively because musicology manuscripts ofte
 3. Avoid unnecessary second-hand citation. Use "quoted in," "cited in," or "discussed in" only when the primary source cannot be accessed and the dependency must be disclosed.
 4. Do not overclaim direct influence, lineage, reception, classroom practice, or audience effect unless the evidence proves it. Use careful formulations such as "mediating framework," "analytical metalanguage," "institutional discourse," "pedagogical adaptation," "published pedagogical discourse," or "documented reception trace" when the evidence supports a more limited claim.
 5. Keep claims modest, defensible, and evidence-bound for doctoral musicology and peer review. Prefer a narrower proven claim over a broader attractive claim.
+6. For reception-aesthetics work, do not let a source inventory become the argument. Use prior dissertations and catalogues as source maps or baselines, then build the manuscript around historically specific receivers, expectations, media, institutions, and changes in meaning.
 
 ## Workflow Router
 
@@ -98,7 +100,7 @@ Load only the reference files required for the current phase.
 5. Literature discovery and Zotero intake: search, download, import, tag, and record what is readable.
 6. Reading and annotation: create source notes that summarize, assess, and state how each source can be used; extract exact claims with page numbers or stable web evidence.
 7. Evidence system: maintain a source matrix, evidence log, page-locator audit, and source-synthesis map before heavy drafting.
-8. Architecture: build a claim-evidence outline or prospectus-style plan, not just a heading list.
+8. Architecture: build a claim-evidence outline or prospectus-style plan, not just a heading list. For reception-history chapters, include a horizon-of-expectation spine before drafting.
 9. Literature review and method: synthesize by theme, method, corpus, and outlier evidence; state corpus limits honestly.
 10. Drafting: write section by section from the evidence map; mark gaps instead of filling them with guesses.
 11. Structural audit: after a full draft, create a reverse outline or paragraph-function check before polishing.

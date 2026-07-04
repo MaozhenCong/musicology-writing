@@ -129,12 +129,31 @@ Do not force a relationship between sources. If a source does not belong in a sy
 Sometimes a secondary source, database record, or institutional summary identifies the exact primary source and page, while the primary page image is not yet locally available. Handle this in two layers:
 
 1. In working evidence files, record both the intended primary locator and the provenance source that supplied it.
-2. In the manuscript, follow the user's citation rule. If the user requires direct primary-page citation, cite the primary locator directly and do not write "as cited in" or "citing" in the footnote.
+2. In the manuscript, follow the user's citation rule only after the exhausted-primary-search gate below has been satisfied. If the user requires direct primary-page citation after that gate, cite the primary locator directly and do not write "as cited in" or "citing" in the footnote.
 3. In the audit or completion note, state whether the primary page image has actually been visually checked.
 4. Do not claim visual inspection of the primary page until it has happened.
 5. If the page is central to the argument and still unverified visually, keep it in the manual follow-up list rather than silently treating it as fully verified.
 
 This avoids both errors: hiding the source trail from future agents, and making the polished manuscript look like a secondary transfer when the user's rule is to use the primary page locator.
+
+## Exhausted Primary Search
+
+When a primary source cannot be found, use a two-step exhaustion rule before relying on a transmitted locator or quotation:
+
+1. Automatic search: local workspace, Zotero, saved snapshots, publisher/archive pages, public web, and legal/open databases that are available to the agent.
+2. Manual search: the user's library access, CNKI/NLC/archive request, institutional database, or other human-access route when automatic search cannot reach the file.
+
+If both steps fail or the manual step is genuinely blocked, and the user explicitly permits it, a primary locator quoted or cited in reliable literature may be used. Record the dependency in working files:
+
+- missing primary source;
+- automatic search routes attempted;
+- manual search route attempted, unavailable, or blocked;
+- user permission to use the transmitted locator despite the missing primary file;
+- secondary source that transmitted the primary locator, quotation, or claim;
+- whether the primary image/text was visually inspected;
+- whether the manuscript note cites the primary locator directly or discloses "as cited/discussed in."
+
+Do not claim visual inspection of an unseen primary source. Do not quote unseen primary wording unless the secondary source quotes it and the transmission is recorded. If the transmitted source contains an internal conflict, downgrade the claim to a search lead until a primary image or independent corroboration resolves it.
 
 ## Replacement and Similar-Source Assessment
 

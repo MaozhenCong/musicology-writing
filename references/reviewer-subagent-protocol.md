@@ -20,6 +20,8 @@ Do not mark the project as final-ready until this gate has a visible artifact:
 
 If subagent tools are available and the user has explicitly requested subagents, independent agents, or parallel review, spawn separate subagents for distinct roles. If subagents are unavailable or not explicitly authorized in the current tool environment, state that limitation and run the same roles sequentially in the main thread. Do not silently replace a requested subagent review with an unlabelled internal check.
 
+When a user asks for the full workflow, says not to skip steps, or the current thread or project handoff explicitly requires subagents, treat the reviewer gate as automatic for the current dissertation or publication task. Actual subagent spawning still depends on tool availability and user authorization; if subagents cannot be spawned, run distinct role-labeled reports and record that limitation. Do not wait for a second reminder before running the reviewer gate.
+
 ## Default Reviewer Passes
 
 Run at least one strict pass. For high-stakes submission, use several distinct perspectives:
@@ -39,6 +41,8 @@ For dissertation-chapter work, the minimum independent roles are:
 2. field reviewer: musicology / music education / reception-history accuracy;
 3. citation and evidence auditor: source matrix, page locators, primary/secondary source boundaries;
 4. devil's advocate: overclaiming, similarity risk, strongest objections.
+
+For reception-history dissertation chapters, add a horizon-of-expectation check to the dissertation examiner or field reviewer brief: the review must identify any section that is only chronology, biography, repertoire inventory, or source summary without explaining receiver horizon and change in meaning.
 
 For final DOCX or submission packages, add a layout/format auditor after the revised document exists.
 

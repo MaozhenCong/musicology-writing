@@ -73,6 +73,20 @@ Build the chapter as a claim-evidence argument:
 
 For introductions, expand breadth through more literature, clearer field positioning, and sharper research questions. Do not inflate length with unsupported generalizations.
 
+## Reception-Aesthetic Spine
+
+For dissertation chapters about reception history, build a horizon-of-expectation spine before drafting or expanding. Each major section should answer:
+
+1. Who is the receiver or interpretive community?
+2. What prior knowledge, practice, institution, medium, repertoire, or political need shaped that receiver's horizon?
+3. What feature of the composer, work, genre, performer, or event became meaningful in that horizon?
+4. What source proves presence only, and what source proves interpretation or meaning?
+5. Did the evidence show confirmation, adjustment, narrowing, rupture, or transformation of the prior horizon?
+
+Do not organize the dissertation chapter merely by chronology, repertoire list, article inventory, or institutional timeline unless that structure directly explains changes in reception. Use earlier dissertations, bibliographies, and catalogues as source maps and baselines, not as the chapter's analytical architecture.
+
+When revising a chapter that has drifted toward summary, add a reverse-outline column for "horizon function." Paragraphs that only say "this happened" or "this source exists" should be revised or cut unless they support a receiver-specific horizon claim.
+
 ## Source Coverage Rule
 
 Do not omit relevant literature because page extraction is difficult. Rank sources by relevance, authority, and citation value. Page uncertainty affects the locator label, not whether the source deserves attention.
@@ -151,6 +165,7 @@ Zhao Feng (赵沨), "Great Victory of the Music Education Revolution" (音乐教
 Write from the evidence map:
 
 - Every paragraph should have a clear function in the chapter.
+- In reception-history chapters, every paragraph group should identify the receiver horizon it advances or qualifies.
 - Long literature sections should synthesize debates, methods, and gaps rather than list sources one by one.
 - Use transition sentences to show why musicology, music education, reception history, and piano pedagogy sources belong in the same argument.
 - Avoid claiming national, institutional, pedagogical, or student-outcome effects unless the cited corpus directly supports them.
@@ -193,6 +208,7 @@ The dissertation-chapter reviewer gate is complete only when the project has:
 - [ ] Bibliography or references correspond to cited sources.
 - [ ] Reviewer/subagent gate was completed, with reports, synthesis, revision plan, and execution notes.
 - [ ] Reverse-outline or paragraph-function audit confirms the chapter is not just an expanded source list.
+- [ ] For reception-history chapters, a horizon-of-expectation spine or reverse-outline horizon-function check confirms that receiver, prior horizon, evidence type, and horizon change are explicit.
 - [ ] Rendered page QA or Word inspection confirms no blank pages or severe footnote overflow.
 - [ ] QA page images or temporary render files are not described as the final deliverable unless the user requested them.
 - [ ] Handoff states any remaining manual confirmations honestly.
