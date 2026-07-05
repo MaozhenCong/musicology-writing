@@ -129,7 +129,7 @@ Do not force a relationship between sources. If a source does not belong in a sy
 Sometimes a secondary source, database record, or institutional summary identifies the exact primary source and page, while the primary page image is not yet locally available. Handle this in two layers:
 
 1. In working evidence files, record both the intended primary locator and the provenance source that supplied it.
-2. In the manuscript, follow the user's citation rule only after the exhausted-primary-search gate below has been satisfied. If the user requires direct primary-page citation after that gate, cite the primary locator directly and do not write "as cited in" or "citing" in the footnote.
+2. In the final manuscript, follow the user's citation rule only after the exhausted-primary-search gate below has been satisfied. If the user requires direct primary-page citation after that gate, cite the primary locator directly in final prose, footnotes, and bibliography; do not write "as cited in," "quoted in," "transmitted in," "citing," or similar secondary-transfer labels in final-facing text.
 3. In the audit or completion note, state whether the primary page image has actually been visually checked.
 4. Do not claim visual inspection of the primary page until it has happened.
 5. If the page is central to the argument and still unverified visually, keep it in the manual follow-up list rather than silently treating it as fully verified.
@@ -151,7 +151,7 @@ If both steps fail or the manual step is genuinely blocked, and the user explici
 - user permission to use the transmitted locator despite the missing primary file;
 - secondary source that transmitted the primary locator, quotation, or claim;
 - whether the primary image/text was visually inspected;
-- whether the manuscript note cites the primary locator directly or discloses "as cited/discussed in."
+- whether the final manuscript cites the primary locator directly or discloses "as cited/discussed in."
 
 Do not claim visual inspection of an unseen primary source. Do not quote unseen primary wording unless the secondary source quotes it and the transmission is recorded. If the transmitted source contains an internal conflict, downgrade the claim to a search lead until a primary image or independent corroboration resolves it.
 
