@@ -59,12 +59,12 @@ Use native Word/DOCX handling conservatively because musicology manuscripts ofte
 
 1. Prefer editing and saving native `.docx` files. Avoid format round-trips through LibreOffice, ODT, HTML, PDF, or other intermediates for final formatting unless needed to rescue a damaged file or explicitly requested.
 2. For dissertation chapters using footnotes, preserve Word footnotes as real footnotes with superscript body references and superscript automatic page-bottom note numbers; do not replace them with typed numbers, endnotes, plain paragraphs, or manually assembled note lists. For journal manuscripts, first check whether the journal requires footnotes, endnotes, author-date citations, or another system.
-3. For dissertation chapters, default body paragraphs to justified alignment and double line spacing unless the institution or supervisor requires otherwise; preserve these defaults when rebuilding DOCX files.
+3. For dissertation chapters, default body paragraphs to justified alignment and double line spacing unless the institution or supervisor requires otherwise; keep footnotes justified but normally single-spaced.
 4. Preserve headings, bibliography, italics, Chinese characters, Polish/French/Spanish diacritics, and Chicago note punctuation during automated edits.
 5. Final Word/DOCX citations must use real Word italics and formatting for book and standalone-work titles in body text, footnotes, and bibliography; do not leave literal Markdown asterisks or other markup characters around titles in final-facing files.
 6. If Microsoft Word reports unreadable content or asks to recover a document, stop iterative blind repair. Preserve the original, open the recovered content only when necessary, and save the recovered document immediately under a new clean `.docx` filename before continuing.
 7. When automating Word on macOS, operate on the active recovered document when Word is in a dialog/recovery state. Avoid fragile assumptions such as `count documents`; first verify the active document name and save a new copy.
-8. After automated DOCX repair or generation, validate both structurally and practically: check footnote-reference/definition counts, inspect rendered pages, verify justified body alignment and requested line spacing, and when possible confirm that Microsoft Word opens the file without a recovery dialog.
+8. After automated DOCX repair or generation, validate both structurally and practically: check footnote-reference/definition counts, inspect rendered pages, verify justified body alignment, body double spacing, and footnote single spacing unless a target rule says otherwise, and when possible confirm that Microsoft Word opens the file without a recovery dialog.
 9. Long footnotes can still cross pages in real Word layout. To reduce this risk, split overloaded prose into source-specific sentences, keep each footnote compact, and avoid large authority-accumulation notes.
 
 ## Musicology Argumentation Standards
@@ -84,6 +84,7 @@ Use native Word/DOCX handling conservatively because musicology manuscripts ofte
 - Searching or importing literature: read `references/evidence-citation-zotero.md`.
 - Drafting, revising, or checking citations: read `references/evidence-citation-zotero.md` and the current project evidence files.
 - Adapting to a journal, OJS, email submission, or doctoral thesis rule: read `references/journal-thesis-adaptation.md`.
+- Formatting this user's University of Warsaw / WNKS doctoral dissertation: read `references/warsaw-doctoral-format.md` after the dissertation workflow file.
 - Running reviewer/subagent critique: read `references/reviewer-subagent-protocol.md`.
 - Needing reusable tables/checklists: read `references/templates.md`.
 - Needing examples from the three observed submission patterns: read `references/case-patterns.md`.
@@ -129,7 +130,7 @@ Load only the reference files required for the current phase.
 12. If a source is unreadable, incomplete, or only metadata-level, label it as such and do not use it for exact claims.
 13. Similarity-risk control is a writing constraint: avoid reusing dissertation phrasing, previously submitted article structures, or high-risk topic-word clusters.
 14. Do not invent DOI, page numbers, publication places, journal issue numbers, translated titles, institutional titles, or source contents. If DOI or other metadata is absent, mark it absent or needs verification instead of fabricating it.
-15. For dissertation chapters in English, use one consistent Chinese-source format unless the institution requires otherwise: English translation or romanized author/title form first when appropriate, with Chinese characters in parentheses for verification. For journal articles, follow the target journal's citation style while still preserving enough Chinese metadata for verification.
+15. For dissertation chapters in English, use one consistent non-English-source title format unless the institution requires otherwise: English title first, followed by the original-language title in parentheses. This applies to Chinese, French, Polish, and other non-English titles; do not use original-language title followed by English in parentheses in final dissertation prose, footnotes, or bibliography.
 16. Verify every added reference before inserting it. Add references only when they support a specific claim, strengthen the argument, or broaden a comparison in a defensible way; never inflate a bibliography for appearance.
 17. Separate primary sources, secondary scholarship, institutional documents, and methodological references in notes, matrices, or discussion when the distinction helps the reader understand evidentiary status.
 

@@ -26,6 +26,8 @@ For continuation work, identify the latest authoritative draft, latest page/cita
 
 For this user's dissertation work, apply the same footnote logic as all other writing tracks: avoid stacking several note callouts after one sentence; split prose into source-specific claims where possible; use one note callout per citation position; put multiple same-position sources inside that note separated by semicolons only when the claim genuinely needs them together.
 
+For University of Warsaw / WNKS formatting work, also read `warsaw-doctoral-format.md`. Treat checked UW/WNKS documents as authoritative for submission package, APD, summary, and title-page requirements; treat body/footnote typography as working defaults unless a supervisor or doctoral office template says otherwise.
+
 ## Full-Dissertation Workspace
 
 For a multi-chapter thesis, keep a stable workspace so future agents do not mix chapter states:
@@ -136,14 +138,14 @@ For full-dissertation work using Chicago Notes-Bibliography:
 - put multiple sources for the same citation position in one footnote, separated by semicolons, only when the claim genuinely needs them together;
 - do not stack multiple note numbers at one sentence unless the institution explicitly requires it;
 - format main text as Times New Roman 12 pt, justified, and double-spaced unless the institution or supervisor requires otherwise;
-- format footnote text as Times New Roman 10 pt with line spacing set by the institution or user's current instruction;
+- format footnote text as Times New Roman 10 pt, justified, and single-spaced unless the institution or supervisor requires otherwise;
 - use Word automatic footnote numbering; keep both body callouts and footnote-area numbers superscript; do not type note numbers manually;
 - convert Markdown italics or other manuscript markup into real Word formatting so book and standalone-work titles use real italics in body text, footnotes, and bibliography;
 - group same-author references only when it improves clarity and does not hide distinct source identities;
 - include exact pages for paginated claims;
 - extract real printed pages from the original source file whenever available;
 - use `file p.` only when printed pagination cannot be confirmed or does not exist after inspection;
-- keep Chinese sources in English (Chinese) form.
+- keep non-English source titles in English (original-language) form.
 
 Dissertation-wide Chicago style sheet:
 
@@ -152,7 +154,7 @@ Dissertation-wide Chicago style sheet:
 - Avoid `ibid.` by default because it becomes fragile during editing; use shortened notes unless the institution requires `ibid.`.
 - Bibliography: keep one bibliography entry per cited source. Do not merge different sources in the bibliography merely because they appear in the same footnote.
 - Repeated same-position sources: keep one note callout and separate sources inside the note with semicolons.
-- Chinese sources: use English title followed by Chinese original in parentheses; include Chinese author/name or institution in parentheses at first citation when useful.
+- Non-English source titles: use English title followed by the original-language title in parentheses; include Chinese author/name or institution in parentheses at first citation when useful. Do not use a French, Chinese, Polish, or other original-language title first with the English title in parentheses in final dissertation prose, footnotes, or bibliography.
 
 Examples:
 
@@ -205,12 +207,13 @@ The dissertation-chapter reviewer gate is complete only when the project has:
 
 - [ ] DOCX is the final deliverable unless PDF was requested.
 - [ ] Body text is justified and double-spaced unless the institution or supervisor requires otherwise.
+- [ ] Footnotes are justified and single-spaced unless the institution or supervisor requires otherwise.
 - [ ] Footnote references and footnote definitions match.
 - [ ] Book and standalone-work titles use real italics in body text, footnotes, and bibliography.
 - [ ] No stacked note numbers where one note callout with semicolons is expected.
 - [ ] No unresolved page placeholders remain.
 - [ ] `file p.` appears only for sources without verifiable printed pagination.
-- [ ] Chinese source titles include English translation plus Chinese original.
+- [ ] Non-English source titles use English title followed by original-language title in parentheses.
 - [ ] Bibliography or references correspond to cited sources.
 - [ ] Reviewer/subagent gate was completed, with reports, synthesis, revision plan, and execution notes.
 - [ ] Reverse-outline or paragraph-function audit confirms the chapter is not just an expanded source list.
