@@ -58,12 +58,13 @@ This is one v1 skill with two explicit tracks, not two separate skills: a doctor
 Use native Word/DOCX handling conservatively because musicology manuscripts often depend on footnotes, italics, non-Latin characters, and bibliography formatting.
 
 1. Prefer editing and saving native `.docx` files. Avoid format round-trips through LibreOffice, ODT, HTML, PDF, or other intermediates for final formatting unless needed to rescue a damaged file or explicitly requested.
-2. For dissertation chapters using footnotes, preserve Word footnotes as real footnotes with superscript body references and page-bottom note text; do not replace them with typed numbers, endnotes, plain paragraphs, or manually assembled note lists. For journal manuscripts, first check whether the journal requires footnotes, endnotes, author-date citations, or another system.
+2. For dissertation chapters using footnotes, preserve Word footnotes as real footnotes with superscript body references and superscript automatic page-bottom note numbers; do not replace them with typed numbers, endnotes, plain paragraphs, or manually assembled note lists. For journal manuscripts, first check whether the journal requires footnotes, endnotes, author-date citations, or another system.
 3. Preserve headings, bibliography, italics, Chinese characters, Polish/French/Spanish diacritics, and Chicago note punctuation during automated edits.
-4. If Microsoft Word reports unreadable content or asks to recover a document, stop iterative blind repair. Preserve the original, open the recovered content only when necessary, and save the recovered document immediately under a new clean `.docx` filename before continuing.
-5. When automating Word on macOS, operate on the active recovered document when Word is in a dialog/recovery state. Avoid fragile assumptions such as `count documents`; first verify the active document name and save a new copy.
-6. After automated DOCX repair or generation, validate both structurally and practically: check footnote-reference/definition counts, inspect rendered pages, and when possible confirm that Microsoft Word opens the file without a recovery dialog.
-7. Long footnotes can still cross pages in real Word layout. To reduce this risk, split overloaded prose into source-specific sentences, keep each footnote compact, and avoid large authority-accumulation notes.
+4. Final Word/DOCX citations must use real Word italics and formatting; do not leave literal Markdown asterisks or other markup characters around titles in final-facing footnotes or bibliography.
+5. If Microsoft Word reports unreadable content or asks to recover a document, stop iterative blind repair. Preserve the original, open the recovered content only when necessary, and save the recovered document immediately under a new clean `.docx` filename before continuing.
+6. When automating Word on macOS, operate on the active recovered document when Word is in a dialog/recovery state. Avoid fragile assumptions such as `count documents`; first verify the active document name and save a new copy.
+7. After automated DOCX repair or generation, validate both structurally and practically: check footnote-reference/definition counts, inspect rendered pages, verify requested line spacing, and when possible confirm that Microsoft Word opens the file without a recovery dialog.
+8. Long footnotes can still cross pages in real Word layout. To reduce this risk, split overloaded prose into source-specific sentences, keep each footnote compact, and avoid large authority-accumulation notes.
 
 ## Musicology Argumentation Standards
 
@@ -118,17 +119,18 @@ Load only the reference files required for the current phase.
 3. Do not drop relevant literature merely because automatic printed-page extraction fails; preserve the source and keep PDF/file locator pages or other locators for manual page correction.
 4. Web sources require title, responsible institution/author where available, URL, access date, and a saved copy or snapshot when possible.
 5. Chinese sources should preserve the original Chinese title and provide an English translation; do not replace titles with pinyin.
-6. Across all writing tracks, avoid piling several footnote callouts after one sentence. When possible, split the prose into separate evidence-specific sentences and give each source or source group its own note callout.
-7. Use one note callout at a citation position. Put multiple sources in that single footnote, separated by semicolons, only when the same sentence or clause genuinely requires several sources together.
-8. For high-traceability drafting, prefer source-specific footnotes over large authority-accumulation notes. Do not merge sources merely to reduce note count.
-9. If no printed pagination exists after inspection, cite a concise locator such as `file p. 6`; do not add verbose page-warning prose inside the footnote.
-10. Treat machine translations and AI summaries as reading aids only. Do not cite them as sources.
-11. If a source is unreadable, incomplete, or only metadata-level, label it as such and do not use it for exact claims.
-12. Similarity-risk control is a writing constraint: avoid reusing dissertation phrasing, previously submitted article structures, or high-risk topic-word clusters.
-13. Do not invent DOI, page numbers, publication places, journal issue numbers, translated titles, institutional titles, or source contents. If DOI or other metadata is absent, mark it absent or needs verification instead of fabricating it.
-14. For dissertation chapters in English, use one consistent Chinese-source format unless the institution requires otherwise: English translation or romanized author/title form first when appropriate, with Chinese characters in parentheses for verification. For journal articles, follow the target journal's citation style while still preserving enough Chinese metadata for verification.
-15. Verify every added reference before inserting it. Add references only when they support a specific claim, strengthen the argument, or broaden a comparison in a defensible way; never inflate a bibliography for appearance.
-16. Separate primary sources, secondary scholarship, institutional documents, and methodological references in notes, matrices, or discussion when the distinction helps the reader understand evidentiary status.
+6. Across all writing tracks, place footnote callouts immediately after the word, phrase, sentence, or clause they support. Paragraph-final notes are acceptable only when the whole paragraph is supported by the same source group.
+7. If one sentence contains different facts supported by different sources, split the sentence or place separate callouts after the corresponding clauses. Citation audit must be able to answer which exact word, phrase, sentence, or clause each note supports.
+8. Use one note callout at a citation position. Put multiple sources in that single footnote, separated by semicolons, only when the same sentence or clause genuinely requires several sources together.
+9. For high-traceability drafting, prefer source-specific footnotes over large authority-accumulation notes. Do not merge sources merely to reduce note count.
+10. If no printed pagination exists after inspection, cite a concise locator such as `file p. 6`; do not add verbose page-warning prose inside the footnote.
+11. Treat machine translations and AI summaries as reading aids only. Do not cite them as sources.
+12. If a source is unreadable, incomplete, or only metadata-level, label it as such and do not use it for exact claims.
+13. Similarity-risk control is a writing constraint: avoid reusing dissertation phrasing, previously submitted article structures, or high-risk topic-word clusters.
+14. Do not invent DOI, page numbers, publication places, journal issue numbers, translated titles, institutional titles, or source contents. If DOI or other metadata is absent, mark it absent or needs verification instead of fabricating it.
+15. For dissertation chapters in English, use one consistent Chinese-source format unless the institution requires otherwise: English translation or romanized author/title form first when appropriate, with Chinese characters in parentheses for verification. For journal articles, follow the target journal's citation style while still preserving enough Chinese metadata for verification.
+16. Verify every added reference before inserting it. Add references only when they support a specific claim, strengthen the argument, or broaden a comparison in a defensible way; never inflate a bibliography for appearance.
+17. Separate primary sources, secondary scholarship, institutional documents, and methodological references in notes, matrices, or discussion when the distinction helps the reader understand evidentiary status.
 
 ## Journal Submission Compliance
 

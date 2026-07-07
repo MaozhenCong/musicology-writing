@@ -131,10 +131,14 @@ For full-dissertation work using Chicago Notes-Bibliography:
 
 - place one note callout at the end of the sentence or clause being supported;
 - prefer splitting overloaded citation sentences into several shorter evidence-specific sentences, each with its own note;
+- do not leave a note at paragraph end when it only supports one earlier sentence, phrase, or clause;
+- if different parts of a sentence rely on different sources, split the sentence or place the callouts after the corresponding clauses;
 - put multiple sources for the same citation position in one footnote, separated by semicolons, only when the claim genuinely needs them together;
 - do not stack multiple note numbers at one sentence unless the institution explicitly requires it;
-- format main text as Times New Roman 12 pt and footnote text as Times New Roman 10 pt, single-spaced, unless the institution requires otherwise;
-- use Word automatic footnote numbering; do not type note numbers manually;
+- format main text as Times New Roman 12 pt with the institution's or user's required line spacing; for this dissertation workflow, verify double spacing when requested;
+- format footnote text as Times New Roman 10 pt with line spacing set by the institution or user's current instruction;
+- use Word automatic footnote numbering; keep both body callouts and footnote-area numbers superscript; do not type note numbers manually;
+- convert Markdown italics or other manuscript markup into real Word formatting so final-facing citations do not show literal asterisks;
 - group same-author references only when it improves clarity and does not hide distinct source identities;
 - include exact pages for paginated claims;
 - extract real printed pages from the original source file whenever available;

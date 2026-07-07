@@ -175,6 +175,9 @@ These rules apply across dissertation chapters, journal articles, conference pap
 
 - avoid piling several footnote callouts after one sentence;
 - when possible, split the prose into separate evidence-specific sentences and place one note callout after each supported claim;
+- place each footnote callout immediately after the cited word, phrase, sentence, or clause; use paragraph-final notes only when the same source group supports the whole paragraph;
+- if one sentence contains different facts supported by different sources, split the sentence or place separate callouts at the corresponding clauses;
+- during citation audit, verify that each footnote position clearly answers which word, phrase, sentence, or clause the note supports;
 - use one note callout at a citation position;
 - put multiple sources in that same footnote, separated by semicolons, only when they jointly support the same sentence or clause;
 - do not merge sources merely to reduce note count or make a paragraph look shorter;
@@ -186,9 +189,12 @@ For English academic DOCX files using notes:
 - keep main text in Times New Roman 12 pt unless the target requires otherwise;
 - keep footnote text in Times New Roman 10 pt, single-spaced;
 - keep footnote spacing consistent, usually 0 pt or 6 pt after according to the target;
+- apply the required manuscript line spacing from the institution or user; for this dissertation workflow, double spacing should be verified in the generated DOCX when requested;
 - let Word generate the footnote references automatically;
 - keep body-text note callouts superscript;
+- keep Word-generated footnote-area numbers superscript as well;
 - do not type footnote numbers manually in the body or in the footnote area.
+- final Word/DOCX citations must not contain literal Markdown formatting markers such as asterisks around titles; convert emphasis to real Word italics.
 
 For Chicago Notes-Bibliography work:
 
