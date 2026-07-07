@@ -26,6 +26,8 @@ For continuation work, identify the latest authoritative draft, latest page/cita
 
 For this user's dissertation work, apply the same footnote logic as all other writing tracks: avoid stacking several note callouts after one sentence; split prose into source-specific claims where possible; use one note callout per citation position; put multiple same-position sources inside that note separated by semicolons only when the claim genuinely needs them together.
 
+For this user's dissertation DOCX work, treat the latest well-rendered chapter DOCX as the style template for later chapter outputs. Do not generate from a blank document once Chapter 1 or another approved chapter has established the thesis visual system. Never put workflow labels, generator status lines, or audit caveats into the manuscript page.
+
 For University of Warsaw / WNKS formatting work, also read `warsaw-doctoral-format.md`. Treat checked UW/WNKS documents as authoritative for submission package, APD, summary, and title-page requirements; treat body/footnote typography as working defaults unless a supervisor or doctoral office template says otherwise.
 
 ## Full-Dissertation Workspace
@@ -218,6 +220,8 @@ The dissertation-chapter reviewer gate is complete only when the project has:
 - [ ] Reviewer/subagent gate was completed, with reports, synthesis, revision plan, and execution notes.
 - [ ] Reverse-outline or paragraph-function audit confirms the chapter is not just an expanded source list.
 - [ ] For reception-history chapters, a horizon-of-expectation spine or reverse-outline horizon-function check confirms that receiver, prior horizon, evidence type, and horizon change are explicit.
+- [ ] The DOCX was generated from the approved chapter style template when one exists; the manuscript page contains no workflow/status line.
+- [ ] The generator supports the source draft's active footnote notation and converts every footnote to real Word footnotes.
 - [ ] Rendered page QA or Word inspection confirms no blank pages or severe footnote overflow.
 - [ ] QA page images or temporary render files are not described as the final deliverable unless the user requested them.
 - [ ] Handoff states any remaining manual confirmations honestly.

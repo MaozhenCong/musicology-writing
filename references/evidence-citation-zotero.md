@@ -198,6 +198,7 @@ For English academic DOCX files using notes:
 - do not type footnote numbers manually in the body or in the footnote area.
 - final Word/DOCX citations must not contain literal Markdown formatting markers such as asterisks around titles; convert book and standalone-work titles to real Word italics in body text, footnotes, and bibliography.
 - final English dissertation footnotes and bibliography should put English source titles first, followed by original-language titles in parentheses; do not use original-language titles first with English titles in parentheses.
+- if a Markdown source uses inline footnotes such as `^[...]`, the DOCX generator must explicitly parse that form and convert each inline note to a real Word footnote; do not silently drop notes because the generator expected only bottom-defined `[^1]: ...` notes.
 
 For Chicago Notes-Bibliography work:
 
