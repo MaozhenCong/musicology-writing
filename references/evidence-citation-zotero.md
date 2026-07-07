@@ -187,14 +187,15 @@ These rules apply across dissertation chapters, journal articles, conference pap
 For English academic DOCX files using notes:
 
 - keep main text in Times New Roman 12 pt unless the target requires otherwise;
+- for dissertation DOCX output, keep main body paragraphs justified and double-spaced unless the institution or supervisor requires another format;
 - keep footnote text in Times New Roman 10 pt, single-spaced;
 - keep footnote spacing consistent, usually 0 pt or 6 pt after according to the target;
-- apply the required manuscript line spacing from the institution or user; for this dissertation workflow, double spacing should be verified in the generated DOCX when requested;
+- apply the required manuscript line spacing from the institution or user, and verify it in the generated DOCX;
 - let Word generate the footnote references automatically;
 - keep body-text note callouts superscript;
 - keep Word-generated footnote-area numbers superscript as well;
 - do not type footnote numbers manually in the body or in the footnote area.
-- final Word/DOCX citations must not contain literal Markdown formatting markers such as asterisks around titles; convert emphasis to real Word italics.
+- final Word/DOCX citations must not contain literal Markdown formatting markers such as asterisks around titles; convert book and standalone-work titles to real Word italics in body text, footnotes, and bibliography.
 
 For Chicago Notes-Bibliography work:
 

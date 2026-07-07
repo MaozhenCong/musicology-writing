@@ -30,7 +30,7 @@ This is one v1 skill with two explicit tracks, not two separate skills: a doctor
 ## Track Boundaries
 
 - **Always shared:** source verification, no fabrication, exact page discipline, primary/secondary evidence distinction, backup-before-large-edit, reviewer/audit gates, and clear handoff.
-- **Dissertation defaults:** chapter-scale breadth, Chicago-style footnotes unless the institution says otherwise, full DOCX chapter delivery, dissertation bibliography consistency, and source/method framing designed for thesis chapters.
+- **Dissertation defaults:** chapter-scale breadth, Chicago-style footnotes unless the institution says otherwise, full DOCX chapter delivery, justified body text, double line spacing, real italics for book and standalone-work titles, dissertation bibliography consistency, and source/method framing designed for thesis chapters.
 - **Journal-specific:** word limit, anonymity, title page, abstract/keywords, reference style, footnote/endnote policy, file format, cover letter, declarations, figures/tables, and metadata. Verify these from the target journal's official site or submission system every time.
 - If a dissertation rule and a journal rule conflict, follow the journal rule for journal work and record the difference in the submission checklist.
 
@@ -59,12 +59,13 @@ Use native Word/DOCX handling conservatively because musicology manuscripts ofte
 
 1. Prefer editing and saving native `.docx` files. Avoid format round-trips through LibreOffice, ODT, HTML, PDF, or other intermediates for final formatting unless needed to rescue a damaged file or explicitly requested.
 2. For dissertation chapters using footnotes, preserve Word footnotes as real footnotes with superscript body references and superscript automatic page-bottom note numbers; do not replace them with typed numbers, endnotes, plain paragraphs, or manually assembled note lists. For journal manuscripts, first check whether the journal requires footnotes, endnotes, author-date citations, or another system.
-3. Preserve headings, bibliography, italics, Chinese characters, Polish/French/Spanish diacritics, and Chicago note punctuation during automated edits.
-4. Final Word/DOCX citations must use real Word italics and formatting; do not leave literal Markdown asterisks or other markup characters around titles in final-facing footnotes or bibliography.
-5. If Microsoft Word reports unreadable content or asks to recover a document, stop iterative blind repair. Preserve the original, open the recovered content only when necessary, and save the recovered document immediately under a new clean `.docx` filename before continuing.
-6. When automating Word on macOS, operate on the active recovered document when Word is in a dialog/recovery state. Avoid fragile assumptions such as `count documents`; first verify the active document name and save a new copy.
-7. After automated DOCX repair or generation, validate both structurally and practically: check footnote-reference/definition counts, inspect rendered pages, verify requested line spacing, and when possible confirm that Microsoft Word opens the file without a recovery dialog.
-8. Long footnotes can still cross pages in real Word layout. To reduce this risk, split overloaded prose into source-specific sentences, keep each footnote compact, and avoid large authority-accumulation notes.
+3. For dissertation chapters, default body paragraphs to justified alignment and double line spacing unless the institution or supervisor requires otherwise; preserve these defaults when rebuilding DOCX files.
+4. Preserve headings, bibliography, italics, Chinese characters, Polish/French/Spanish diacritics, and Chicago note punctuation during automated edits.
+5. Final Word/DOCX citations must use real Word italics and formatting for book and standalone-work titles in body text, footnotes, and bibliography; do not leave literal Markdown asterisks or other markup characters around titles in final-facing files.
+6. If Microsoft Word reports unreadable content or asks to recover a document, stop iterative blind repair. Preserve the original, open the recovered content only when necessary, and save the recovered document immediately under a new clean `.docx` filename before continuing.
+7. When automating Word on macOS, operate on the active recovered document when Word is in a dialog/recovery state. Avoid fragile assumptions such as `count documents`; first verify the active document name and save a new copy.
+8. After automated DOCX repair or generation, validate both structurally and practically: check footnote-reference/definition counts, inspect rendered pages, verify justified body alignment and requested line spacing, and when possible confirm that Microsoft Word opens the file without a recovery dialog.
+9. Long footnotes can still cross pages in real Word layout. To reduce this risk, split overloaded prose into source-specific sentences, keep each footnote compact, and avoid large authority-accumulation notes.
 
 ## Musicology Argumentation Standards
 

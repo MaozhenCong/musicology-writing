@@ -135,10 +135,10 @@ For full-dissertation work using Chicago Notes-Bibliography:
 - if different parts of a sentence rely on different sources, split the sentence or place the callouts after the corresponding clauses;
 - put multiple sources for the same citation position in one footnote, separated by semicolons, only when the claim genuinely needs them together;
 - do not stack multiple note numbers at one sentence unless the institution explicitly requires it;
-- format main text as Times New Roman 12 pt with the institution's or user's required line spacing; for this dissertation workflow, verify double spacing when requested;
+- format main text as Times New Roman 12 pt, justified, and double-spaced unless the institution or supervisor requires otherwise;
 - format footnote text as Times New Roman 10 pt with line spacing set by the institution or user's current instruction;
 - use Word automatic footnote numbering; keep both body callouts and footnote-area numbers superscript; do not type note numbers manually;
-- convert Markdown italics or other manuscript markup into real Word formatting so final-facing citations do not show literal asterisks;
+- convert Markdown italics or other manuscript markup into real Word formatting so book and standalone-work titles use real italics in body text, footnotes, and bibliography;
 - group same-author references only when it improves clarity and does not hide distinct source identities;
 - include exact pages for paginated claims;
 - extract real printed pages from the original source file whenever available;
@@ -204,7 +204,9 @@ The dissertation-chapter reviewer gate is complete only when the project has:
 ## Final DOCX Checklist
 
 - [ ] DOCX is the final deliverable unless PDF was requested.
+- [ ] Body text is justified and double-spaced unless the institution or supervisor requires otherwise.
 - [ ] Footnote references and footnote definitions match.
+- [ ] Book and standalone-work titles use real italics in body text, footnotes, and bibliography.
 - [ ] No stacked note numbers where one note callout with semicolons is expected.
 - [ ] No unresolved page placeholders remain.
 - [ ] `file p.` appears only for sources without verifiable printed pagination.
