@@ -10,6 +10,9 @@ Use these lightweight templates to keep the workflow auditable across agents.
 last updated:
 target:
 current stage:
+state vocabulary:
+current gate:
+next gate:
 working title:
 active files:
 
@@ -19,6 +22,13 @@ This workspace only covers:
 Do not mix with:
 
 ## Current decision
+
+## Gate status
+
+- completed gates:
+- current incomplete gate:
+- stale or invalidated artifacts:
+- manual confirmations:
 
 ## Verified requirements
 
@@ -62,6 +72,8 @@ date:
 workspace:
 track:
 current state:
+current gate:
+next gate:
 latest authoritative draft:
 latest audit/checklist:
 source/evidence files:
@@ -72,6 +84,42 @@ submitted or frozen files:
 ## What must not be changed
 
 ## Conflicts or uncertainties
+
+## Resume instruction
+
+Continue from:
+Do not repeat unless:
+```
+
+## Handoff Packet
+
+Use this at the end of a long turn, before switching agents, or after context compaction. Keep it short enough for a future agent to trust quickly.
+
+```markdown
+# Handoff Packet
+
+date:
+workspace:
+track:
+target:
+current state:
+current gate:
+next gate:
+latest authoritative draft:
+latest status/checklist:
+source/evidence files:
+review/revision files:
+frozen or submitted files:
+
+## Completed this turn
+
+## Still unresolved
+
+## Manual confirmations needed
+
+## Do not do
+
+## Resume from here
 ```
 
 ## Prospectus or Chapter Plan

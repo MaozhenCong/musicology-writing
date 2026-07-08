@@ -34,6 +34,18 @@ This is one v1 skill with two explicit tracks, not two separate skills: a doctor
 - **Journal-specific:** word limit, anonymity, title page, abstract/keywords, reference style, footnote/endnote policy, file format, cover letter, declarations, figures/tables, and metadata. Verify these from the target journal's official site or submission system every time.
 - If a dissertation rule and a journal rule conflict, follow the journal rule for journal work and record the difference in the submission checklist.
 
+## Requirement Precedence
+
+When instructions appear to conflict, apply this order:
+
+1. The user's latest explicit instruction for the current task.
+2. Official journal, editor, supervisor, doctoral-office, or university requirements verified for the current target.
+3. The active track file: dissertation workflow for thesis work, journal workflow for article/submission work.
+4. Shared source, citation, reviewer, and style gates in this skill.
+5. Templates, examples, and case patterns.
+
+Do not let examples or prior case patterns override a current target audit. If two project-local records conflict, trust the newest evidence-backed status and record the conflict.
+
 ## Operating Principles
 
 1. State assumptions and unresolved ambiguities before making consequential choices.
@@ -52,6 +64,7 @@ This is one v1 skill with two explicit tracks, not two separate skills: a doctor
 14. Classify work before editing: substantive argument revision, source verification, style polishing, formatting repair, journal compliance, or final-package assembly. Report which category was handled.
 15. After editing, hand off the updated file path, change summary, unresolved issues, user-confirmation items, and verification status.
 16. For reception-history dissertation work, keep the chapter centered on the receiver's horizon of expectation: identify the receiver group, prior musical/cultural horizon, source-proven trigger, and horizon change before expanding chronology, repertoire, or institutional background.
+17. When resuming a project, continue from the first incomplete or invalidated gate. Do not repeat completed gates unless the target, corpus, manuscript, or user instruction has changed enough to make the earlier artifact stale.
 
 ## DOCX and Word Safety
 
@@ -117,6 +130,8 @@ Load only the reference files required for the current phase.
 15. Final package: generate the manuscript, metadata, declarations, cover letter or OJS fields, and final checklist.
 16. Submission and monitoring: record exact submission details; after submission, freeze the submitted version unless the journal requests revision.
 17. Withdrawal and resubmission (/cancel-subscription): verify withdrawal reason, draft withdrawal letter, freeze records, update project status, and if resubmitting, re-check target fit and similarity risk before creating a new lane.
+
+Use these stages as gates. A stage is complete only when its expected artifact exists, is current for the active target, and is named in the status/handoff or final response. A partial artifact should move the project forward, but it should not be described as complete.
 
 ## Source and Citation Rules
 

@@ -14,6 +14,34 @@ For an existing workspace, inspect the project before deciding what to do:
 
 Do not continue a project from memory alone when project-local records exist.
 
+## Workflow State Rule
+
+Use a small, explicit state vocabulary in project status files:
+
+- `exploratory`
+- `target-fit`
+- `source-collection`
+- `evidence-extraction`
+- `architecture`
+- `drafting`
+- `review-revision`
+- `final-package`
+- `submitted`
+- `monitoring`
+- `revision-requested`
+- `rejected`
+- `withdrawn`
+- `archived`
+
+When resuming work, continue from the first incomplete or invalidated gate. Do not restart completed gates unless the target, corpus, manuscript, or user instruction has changed enough to make the earlier artifact stale. When a gate is stale, name why it is stale.
+
+A gate is complete only when:
+
+1. the required artifact exists in the project workspace;
+2. the artifact matches the active target, corpus, and manuscript version;
+3. unresolved manual items are named rather than hidden;
+4. the status or handoff file names the next gate.
+
 ## Phase 0: Intake
 
 Record these fields before work begins:
@@ -155,3 +183,5 @@ After submission:
 - Freeze the submitted version.
 - Monitor only official dashboards and email.
 - If a revision request arrives, create a dated revision plan and response table before editing.
+
+Do not call a project "final-ready" merely because a manuscript file exists. Final-ready means the final checklist, target audit, evidence/citation audit, reviewer gate, style gate when applicable, and layout/metadata checks required for that target have current artifacts or explicit unresolved manual items.

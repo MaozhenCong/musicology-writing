@@ -35,6 +35,8 @@ If an agent does not support automatic skill loading, paste or point it to this 
 Use the skill folder `musicology-writing`. Read `SKILL.md` first. Then load only the reference files needed for the current phase. Follow the no-fabrication, exact-citation, source-matrix, writing-quality, reviewer-pass, and final-package rules. Do not rely on local memories or private paths.
 ```
 
+If the task is a continuation, inspect the project-local status or handoff first and resume from the first incomplete or invalidated gate. Do not restart the workflow from topic selection unless the target, corpus, or user instruction has changed.
+
 ## Codex / OpenAI Agents
 
 Codex-compatible agents should detect the skill through `SKILL.md`. The optional `agents/openai.yaml` file provides UI metadata only; it is not required for the workflow itself.
@@ -47,7 +49,7 @@ Ask the agent to:
 2. identify the current phase;
 3. read only the relevant reference files;
 4. keep project-specific notes in the user's workspace, not inside the skill folder;
-5. report assumptions, unresolved evidence, and files changed.
+5. report assumptions, unresolved evidence, completed gate, next gate, and files changed.
 
 ## What Not to Put in the GitHub Skill
 
