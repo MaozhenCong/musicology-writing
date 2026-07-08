@@ -20,6 +20,7 @@ musicology-writing/
     ├── journal-article-workflow.md
     ├── journal-thesis-adaptation.md
     ├── reviewer-subagent-protocol.md
+    ├── writing-quality-style.md
     ├── withdraw-resubmit.md
     └── templates.md
 ```
@@ -31,7 +32,7 @@ For a GitHub repository, either place this folder at the repository root or insi
 If an agent does not support automatic skill loading, paste or point it to this instruction:
 
 ```text
-Use the skill folder `musicology-writing`. Read `SKILL.md` first. Then load only the reference files needed for the current phase. Follow the no-fabrication, exact-citation, source-matrix, reviewer-pass, and final-package rules. Do not rely on local memories or private paths.
+Use the skill folder `musicology-writing`. Read `SKILL.md` first. Then load only the reference files needed for the current phase. Follow the no-fabrication, exact-citation, source-matrix, writing-quality, reviewer-pass, and final-package rules. Do not rely on local memories or private paths.
 ```
 
 ## Codex / OpenAI Agents

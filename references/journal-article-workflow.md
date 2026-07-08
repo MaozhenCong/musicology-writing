@@ -94,6 +94,7 @@ Before submission:
 - avoid reusing the same introduction architecture across journals;
 - check whether the article's literature review synthesizes a conversation rather than summarizing one source per paragraph;
 - do not copy attractive paragraphs from a dissertation chapter without rewriting and re-evidencing them;
+- run the `writing-quality-style.md` gate to reduce generic AI-like phrasing, repeated triads, over-abstract terminology, and defensive limitation language;
 - make overlap transparent if the journal requires disclosure.
 
 ## Final Package

@@ -178,6 +178,7 @@ Write from the evidence map:
 - Use transition sentences to show why musicology, music education, reception history, and piano pedagogy sources belong in the same argument.
 - Avoid claiming national, institutional, pedagogical, or student-outcome effects unless the cited corpus directly supports them.
 - Mark unresolved evidence in working notes, not in polished prose, unless the limitation belongs in the method section.
+- Apply `writing-quality-style.md` before polishing: remove generic AI-like rhythm, replace abstract placeholders with source-specific action, keep the user's voice as a soft guide, and preserve discipline and citation rules as hard constraints.
 
 After a complete draft exists, create a reverse outline before polishing: one short function statement per paragraph or paragraph group, plus whether it advances the chapter claim, supplies evidence, handles historiography, explains method, or should be cut/merged.
 
@@ -190,6 +191,7 @@ Before final delivery, run these passes or subagents:
 3. music education reviewer: pedagogy, curriculum, institutional claims;
 4. citation auditor: Chicago notes, Chinese titles, printed pages, missing sources;
 5. layout auditor: DOCX footnotes, page flow, blanks, metadata.
+6. style-quality auditor: evidence-first prose, paragraph rhythm, over-abstract terminology, repetition, and AI-like style risk.
 
 The citation auditor must inspect original files for page locators. Do not accept "page needs correction" as final when the user asked for real printed pages.
 

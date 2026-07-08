@@ -1,4 +1,4 @@
 interface:
   display_name: "Musicology Academic Writing"
-  short_description: "Musicology thesis and journal writing"
-  default_prompt: "Use $musicology-writing to plan, source-check, draft, run the reviewer/subagent gate, revise, audit citations, and finalize my musicology dissertation chapter or journal article."
+  short_description: "Source-safe musicology thesis and journal writing"
+  default_prompt: "Use $musicology-writing to plan, source-check, draft, apply the writing-quality/style gate, run the reviewer/subagent gate, revise, audit citations, and finalize my musicology dissertation chapter or journal article."

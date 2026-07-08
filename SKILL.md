@@ -86,6 +86,7 @@ Use native Word/DOCX handling conservatively because musicology manuscripts ofte
 - Writing, submitting, revising, or monitoring a journal article: read `references/journal-article-workflow.md`.
 - Searching or importing literature: read `references/evidence-citation-zotero.md`.
 - Drafting, revising, or checking citations: read `references/evidence-citation-zotero.md` and the current project evidence files.
+- Drafting, style-polishing, reducing AI-like prose, or responding to style criticism: read `references/writing-quality-style.md` after the relevant dissertation or journal workflow file.
 - Adapting to a journal, OJS, email submission, or doctoral thesis rule: read `references/journal-thesis-adaptation.md`.
 - Formatting this user's University of Warsaw / WNKS doctoral dissertation: read `references/warsaw-doctoral-format.md` after the dissertation workflow file.
 - Running reviewer/subagent critique: read `references/reviewer-subagent-protocol.md`.
@@ -109,7 +110,7 @@ Load only the reference files required for the current phase.
 8. Architecture: build a claim-evidence outline or prospectus-style plan, not just a heading list. For reception-history chapters, include a horizon-of-expectation spine before drafting.
 9. Literature review and method: synthesize by theme, method, corpus, and outlier evidence; state corpus limits honestly.
 10. Drafting: write section by section from the evidence map; mark gaps instead of filling them with guesses.
-11. Structural audit: after a full draft, create a reverse outline or paragraph-function check before polishing.
+11. Structural and style audit: after a full draft, create a reverse outline or paragraph-function check before polishing, then apply the writing-quality gate for evidence-first prose, repetition, rhythm, and AI-like style risks.
 12. Citation audit: check every substantive claim, quote, paraphrase, page number, and reference-list entry.
 13. Reviewer loop: use strict reviewer passes or subagents to identify desk-rejection risks, weak claims, missing evidence, and format problems. This gate is complete only after reviewer reports or role-labeled reports are saved or summarized, and a revision plan is created.
 14. Revision: revise against a prioritized plan; avoid broad rewrites when two surgical edits solve the issue. This gate is complete only after the revised text is checked against the reviewer plan.

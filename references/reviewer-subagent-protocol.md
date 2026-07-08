@@ -32,6 +32,7 @@ Run at least one strict pass. For high-stakes submission, use several distinct p
 4. Citation auditor: page numbers, reference correspondence, Chinese titles/translations, DOI/URL accuracy.
 5. Structure reviewer: reverse outline, paragraph function, section order, repetition, and whether the draft is organized by argument rather than by source list.
 6. Devil's advocate: strongest counterargument, overclaiming, missing alternative explanation, similarity risk.
+7. Style-quality reviewer: evidence-first prose, paragraph rhythm, repeated formulae, over-abstract terminology, and AI-like style risk. This reviewer improves clarity and authorial control; it must not hide required AI-use disclosure.
 
 If subagents are available and explicitly authorized for the current task, run them independently. If not, perform separate role-labeled passes in one thread and keep the outputs separate.
 
@@ -146,6 +147,12 @@ For a reverse-outline structure pass:
 
 ```text
 Create a reverse outline of this draft. For each paragraph or paragraph group, identify its function, relationship to the thesis or research question, evidence used, repetition, and whether it should be kept, moved, merged, split, or cut. Do not rewrite the manuscript.
+```
+
+For a style-quality pass:
+
+```text
+Review this manuscript for writing quality and AI-like style risk. Use `references/writing-quality-style.md`. Do not rewrite the manuscript. Identify paragraphs where concepts replace evidence, where sentence rhythm is formulaic, where repeated terms or triads weaken the prose, and where the author should use more concrete source-specific wording. Preserve required AI-use disclosure and do not suggest hiding AI assistance.
 ```
 
 For a full-dissertation consistency pass:

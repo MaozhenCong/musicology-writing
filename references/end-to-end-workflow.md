@@ -119,6 +119,8 @@ Draft section by section:
 
 When evidence is thin, reduce the claim rather than adding unsupported prose.
 
+Before polishing, apply `writing-quality-style.md`: check that paragraphs are evidence-first, terminology is not doing the work of analysis, repeated AI-like patterns have been reduced, and prose remains modest without becoming defensive.
+
 ## Phase 7: Review and Revision
 
 Run these checks in order:
@@ -131,6 +133,7 @@ Run these checks in order:
 6. Target check: structure, length, style, anonymity, declarations.
 7. Reviewer check: desk-rejection risks, contribution, method, repetition, weak terminology.
 8. Similarity-risk check: title, headings, repeated phrases, overlap with previous submissions or thesis.
+9. Writing-quality check: evidence-first paragraphs, concrete subjects, rhythm variation, reduced formulaic lists, and no unsupported abstraction.
 
 Revise by priority. Fix blocking issues first; do not polish language while a method or evidence problem remains.
 

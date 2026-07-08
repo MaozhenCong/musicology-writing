@@ -205,6 +205,7 @@ R001
 - [ ] Chinese titles/translations checked.
 - [ ] Citation/reference correspondence checked.
 - [ ] Similarity-risk wording checked.
+- [ ] Writing-quality/style gate completed when drafting, polishing, or finalizing.
 - [ ] Reviewer pass completed.
 - [ ] Required revisions completed.
 - [ ] Anonymous file scrubbed if required.
@@ -229,6 +230,7 @@ R001
 - [ ] Printed pages were extracted from original source files and visually checked where available.
 - [ ] `file p.` is used only where printed pagination cannot be confirmed or does not exist.
 - [ ] No page-placeholder wording remains.
+- [ ] Writing-quality/style gate confirms the chapter is evidence-first and not generic AI-like prose.
 - [ ] Layout inspection or rendered pages show no blank pages or severe overflow.
 ```
 
