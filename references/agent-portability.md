@@ -20,6 +20,7 @@ musicology-writing/
     ├── journal-article-workflow.md
     ├── journal-thesis-adaptation.md
     ├── reviewer-subagent-protocol.md
+    ├── topic-selection-novelty.md
     ├── writing-quality-style.md
     ├── withdraw-resubmit.md
     └── templates.md
