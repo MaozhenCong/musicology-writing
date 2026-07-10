@@ -33,6 +33,7 @@ Run at least one strict pass. For high-stakes submission, use several distinct p
 5. Structure reviewer: reverse outline, paragraph function, section order, repetition, and whether the draft is organized by argument rather than by source list.
 6. Devil's advocate: strongest counterargument, overclaiming, missing alternative explanation, similarity risk.
 7. Style-quality reviewer: evidence-first prose, paragraph rhythm, repeated formulae, over-abstract terminology, and AI-like style risk. This reviewer improves clarity and authorial control; it must not hide required AI-use disclosure.
+8. Contribution and relevance reviewer: field problem, evidence-backed gap, contribution, strongest counterargument, and the boundary between demonstrated impact and a proposed use.
 
 If subagents are available and explicitly authorized for the current task, run them independently. If not, perform separate role-labeled passes in one thread and keep the outputs separate.
 
@@ -44,6 +45,8 @@ For dissertation-chapter work, the minimum independent roles are:
 4. devil's advocate: overclaiming, similarity risk, strongest objections.
 
 For reception-history dissertation chapters, add a horizon-of-expectation check to the dissertation examiner or field reviewer brief: the review must identify any section that is only chronology, biography, repertoire inventory, or source summary without explaining receiver horizon and change in meaning.
+
+For a new topic, a major dissertation expansion, or a manuscript whose central contribution changed during revision, include the contribution and relevance role. This role is also mandatory for every final manuscript, final DOCX, or submission package. It may be combined with an editor-in-chief report only when the report explicitly gives a contribution/relevance verdict against the Topic Decision Record. This role must reject claims of novelty, originality, significance, or practical impact that are not supported by the field map, corpus, or manuscript.
 
 For final DOCX or submission packages, add a layout/format auditor after the revised document exists.
 
@@ -153,6 +156,12 @@ For a style-quality pass:
 
 ```text
 Review this manuscript for writing quality and AI-like style risk. Use `references/writing-quality-style.md`. Do not rewrite the manuscript. Identify paragraphs where concepts replace evidence, where sentence rhythm is formulaic, where repeated terms or triads weaken the prose, and where the author should use more concrete source-specific wording. Preserve required AI-use disclosure and do not suggest hiding AI assistance.
+```
+
+For a contribution and relevance pass:
+
+```text
+Review this manuscript or topic decision record for research design. Verify that it distinguishes topic, research problem, evidence-backed gap, research question, contribution, and practical relevance. Test the strongest counterargument. Flag any novelty claim based only on absence, any gap unsupported by mapped literature, and any claim that confuses demonstrated impact with a proposed use. Do not rewrite the manuscript.
 ```
 
 For a full-dissertation consistency pass:

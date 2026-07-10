@@ -47,8 +47,26 @@ Do not mix with:
 date:
 topic:
 target:
+decision owner:
+decision status: exploratory / provisional / proceed / stop
 
 ## Research problem
+
+## Field map and gap evidence
+
+| search source | query | date | scope/language | included/excluded | saturation result |
+| --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |
+
+## Gap chain
+
+| gap-chain link | claim | source IDs/pages | what the evidence establishes | remaining uncertainty |
+| --- | --- | --- | --- | --- |
+| field finding |  |  |  |  |
+| limitation or tension |  |  |  |  |
+| consequence |  |  |  |  |
+| research question |  |  |  |  |
+| contribution |  |  |  |  |
 
 ## Narrow corpus
 
@@ -56,11 +74,39 @@ target:
 
 ## Central thesis
 
+## Contribution and counterargument
+
+primary contribution:
+secondary contribution, if any:
+strongest counterargument:
+
+## Relevance pathway
+
+finding -> reader/beneficiary -> decision, interpretation, or practice -> demonstrated impact or potential use:
+
 ## Why this target fits
 
 ## What this paper will not claim
 
 ## Similarity or overlap risks
+
+## Eight-Test Score and Decision
+
+| criterion | score (0-2) | evidence or reason |
+| --- | --- | --- |
+| reader fit |  |  |
+| problem strength |  |  |
+| gap evidence |  |  |
+| question strength |  |  |
+| evidence feasibility |  |  |
+| method fit |  |  |
+| contribution clarity |  |  |
+| relevance integrity |  |  |
+
+total:
+hard thresholds: gap evidence = 2; reader fit/problem/question/feasibility/method/contribution/relevance integrity >= 1:
+decision date:
+decision and next gate:
 ```
 
 ## Project State Snapshot
@@ -156,14 +202,14 @@ S001
 ## Evidence Log
 
 ```tsv
-claim_id	claim_text	evidence_source	source_location_or_page	manuscript_location	risk_level	verification_status	notes
+claim_id	claim_text	claim_type	evidence_source	source_location_or_page	manuscript_location	risk_level	verification_status	notes
 C001
 ```
 
 ## Source Synthesis Map
 
 ```tsv
-group_id	relationship_type	sources	shared_issue	tension_or_outlier	use_in_manuscript	notes
+group_id	relationship_type	sources	shared_issue	tension_or_outlier	gap_or_contribution_use	use_in_manuscript	notes
 G001	agreement/disagreement/method/corpus/outlier
 ```
 
@@ -188,9 +234,12 @@ note_id	manuscript_location	sources_in_note	style_ok	page_locators_ok	action_nee
 
 ## Thesis
 
+## Problem, gap, contribution, and relevance pathway
+
 ## Section 1
 - section claim:
 - evidence:
+- interpretation/warrant/stake:
 - pages/snapshots:
 - risk:
 - word target:
@@ -201,8 +250,8 @@ note_id	manuscript_location	sources_in_note	style_ok	page_locators_ok	action_nee
 ## Reverse Outline Audit
 
 ```tsv
-location	paragraph_function	thesis_connection	evidence_used	action	notes
-Introduction paragraph 1	problem statement	yes	none yet	keep/add evidence
+location	paragraph_function	thesis_connection	evidence_used	interpretation_or_stake	action	notes
+Introduction paragraph 1	problem statement	yes	none yet	field consequence	keep/add evidence
 ```
 
 ## Reading Note
@@ -246,6 +295,9 @@ R001
 
 - [ ] Target requirements verified from official/saved source.
 - [ ] Scope matches evidence.
+- [ ] Current Topic Decision Record includes a search ledger, gap-chain ledger, eight-test score, and hard-threshold result.
+- [ ] Problem, gap, contribution, counterargument, and relevance pathway match the completed manuscript.
+- [ ] Demonstrated impact is separated from proposed or potential use.
 - [ ] Source matrix updated.
 - [ ] Evidence log updated.
 - [ ] All paginated claims have exact pages.
@@ -254,7 +306,9 @@ R001
 - [ ] Citation/reference correspondence checked.
 - [ ] Similarity-risk wording checked.
 - [ ] Writing-quality/style gate completed when drafting, polishing, or finalizing.
+- [ ] Insight/style audit records the strongest evidence-backed interpretation and remaining limitation.
 - [ ] Reviewer pass completed.
+- [ ] Contribution/relevance report gives a verdict against the Topic Decision Record.
 - [ ] Required revisions completed.
 - [ ] Anonymous file scrubbed if required.
 - [ ] DOCX/PDF layout checked if required.

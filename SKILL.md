@@ -7,13 +7,15 @@ description: >-
   chapters or introductions, journal articles, Zotero intake, evidence
   matrices, source-safe drafting, Chicago or journal-style footnotes, verified
   printed-page citations, DOCX/final manuscript preparation, non-fabrication
-  checks, reviewer/subagent critique, OJS/email submission, response to
+  checks, research-problem and gap analysis, contribution and practical-value
+  design, authorial scholarly prose, reviewer/subagent critique, OJS/email submission, response to
   reviewers, and withdrawal/resubmission (/cancel-subscription). Trigger when
   the user mentions musicology/music education papers, PhD dissertations,
   doctoral chapters, dissertation introductions, journal articles, Zotero,
   literature review, source matrix, exact page citations, real printed pages,
   "不要杜撰", footnotes, reviewer/subagent review, target journal requirements,
-  similarity risk, anonymous manuscript, final draft, response to reviewers,
+  similarity risk, research gap, research significance, practical value,
+  anonymous manuscript, final draft, response to reviewers,
   withdraw submission, cancel submission, 撤稿, or /cancel-subscription.
 ---
 
@@ -54,17 +56,19 @@ Do not let examples or prior case patterns override a current target audit. If t
 4. Before editing an existing long-running workspace, read its status or handoff files, latest audit/checklist, active draft, source/evidence records, and any submission record. Identify whether the work is drafting, submitted/under review, revision, monitoring, or withdrawn.
 5. Keep each project, thesis chapter, or target journal in its own folder/status record unless the user explicitly asks for comparison.
 6. For journal articles, prefer the smallest publishable topic over a broad dissertation-scale theme; for thesis chapters, preserve breadth but make every claim evidence-bound.
-7. For full-dissertation or dissertation-chapter DOCX work, default to a DOCX deliverable and do not generate a final PDF unless the user asks for it. Render pages only for layout QA when needed.
-8. Treat citation priority as content-driven: do not drop or demote relevant literature merely because page extraction is difficult.
-9. Treat official requirements, source PDFs, verified web snapshots, saved correspondence, and project-local status records as stronger evidence than memory or search snippets.
-10. Do not invent facts, page numbers, source contents, deadlines, fees, editorial policies, issue timing, or reviewer comments.
-11. Preserve project artifacts: status snapshot, source matrix, evidence log, reading notes, claim-evidence outline, reverse-outline or structure audit, draft, reviewer reports, revision plan, final checklist, and submission record.
-12. Treat workflow stages as gates, not suggestions. When the user asks to follow the full skill workflow, continue through every required gate until complete or explicitly blocked; do not stop after drafting, citation checking, or file generation if reviewer, revision, audit, or final-package gates remain.
-13. Before large edits or automated file repair, create a clearly named backup or working copy. Do not overwrite the user's only editable manuscript.
-14. Classify work before editing: substantive argument revision, source verification, style polishing, formatting repair, journal compliance, or final-package assembly. Report which category was handled.
-15. After editing, hand off the updated file path, change summary, unresolved issues, user-confirmation items, and verification status.
-16. For reception-history dissertation work, keep the chapter centered on the receiver's horizon of expectation: identify the receiver group, prior musical/cultural horizon, source-proven trigger, and horizon change before expanding chronology, repertoire, or institutional background.
-17. When resuming a project, continue from the first incomplete or invalidated gate. Do not repeat completed gates unless the target, corpus, manuscript, or user instruction has changed enough to make the earlier artifact stale.
+7. Separate a topic, a research problem, a literature gap, a research question, a contribution, and a relevance claim. Do not treat a missing keyword search, a fashionable theory, or an interesting object as a sufficient problem.
+8. For full-dissertation or dissertation-chapter DOCX work, default to a DOCX deliverable and do not generate a final PDF unless the user asks for it. Render pages only for layout QA when needed.
+9. Treat citation priority as content-driven: do not drop or demote relevant literature merely because page extraction is difficult.
+10. Treat official requirements, source PDFs, verified web snapshots, saved correspondence, and project-local status records as stronger evidence than memory or search snippets.
+11. Do not invent facts, page numbers, source contents, deadlines, fees, editorial policies, issue timing, or reviewer comments.
+12. Preserve project artifacts: status snapshot, source matrix, evidence log, reading notes, claim-evidence outline, reverse-outline or structure audit, draft, reviewer reports, revision plan, final checklist, and submission record.
+13. Treat workflow stages as gates, not suggestions. When the user asks to follow the full skill workflow, continue through every required gate until complete or explicitly blocked; do not stop after drafting, citation checking, or file generation if reviewer, revision, audit, or final-package gates remain.
+14. Before large edits or automated file repair, create a clearly named backup or working copy. Do not overwrite the user's only editable manuscript.
+15. Classify work before editing: substantive argument revision, source verification, style polishing, formatting repair, journal compliance, or final-package assembly. Report which category was handled.
+16. After editing, hand off the updated file path, change summary, unresolved issues, user-confirmation items, and verification status.
+17. For reception-history dissertation work, keep the chapter centered on the receiver's horizon of expectation: identify the receiver group, prior musical/cultural horizon, source-proven trigger, and horizon change before expanding chronology, repertoire, or institutional background.
+18. Treat practical value as a bounded pathway from a finding to a named reader, decision, practice, or interpretation. Distinguish demonstrated impact from plausible use; never promise educational, institutional, cultural, or social change that the evidence cannot establish.
+19. When resuming a project, continue from the first incomplete or invalidated gate. Do not repeat completed gates unless the target, corpus, manuscript, or user instruction has changed enough to make the earlier artifact stale.
 
 ## DOCX and Word Safety
 
@@ -94,12 +98,12 @@ Use native Word/DOCX handling conservatively because musicology manuscripts ofte
 
 ## Workflow Router
 
-- Starting from scratch: read `references/end-to-end-workflow.md` and begin at intake/topic selection.
-- Writing or revising a dissertation chapter, introduction, or literature review: read `references/dissertation-chapter-workflow.md`.
-- Writing, submitting, revising, or monitoring a journal article: read `references/journal-article-workflow.md`.
+- Starting from scratch: read `references/end-to-end-workflow.md` and begin at intake/topic selection; for any new, weak, unclear, or high-stakes topic, also read `references/topic-selection-novelty.md`.
+- Writing or revising a dissertation chapter, introduction, or literature review: read `references/dissertation-chapter-workflow.md`; before substantial expansion, also read `references/topic-selection-novelty.md` to test the chapter problem, contribution, and dissertation-level function.
+- Writing, submitting, revising, or monitoring a journal article: read `references/journal-article-workflow.md`; when selecting, rebuilding, or questioning a topic's novelty or practical contribution, read `references/topic-selection-novelty.md` before drafting.
 - Searching or importing literature: read `references/evidence-citation-zotero.md`.
 - Drafting, revising, or checking citations: read `references/evidence-citation-zotero.md` and the current project evidence files.
-- Drafting, style-polishing, reducing AI-like prose, or responding to style criticism: read `references/writing-quality-style.md` after the relevant dissertation or journal workflow file.
+- Drafting, style-polishing, strengthening authorial insight, reducing generic or AI-like prose, or responding to style criticism: read `references/writing-quality-style.md` after the relevant dissertation or journal workflow file.
 - Adapting to a journal, OJS, email submission, or doctoral thesis rule: read `references/journal-thesis-adaptation.md`.
 - Formatting this user's University of Warsaw / WNKS doctoral dissertation: read `references/warsaw-doctoral-format.md` after the dissertation workflow file.
 - Running reviewer/subagent critique: read `references/reviewer-subagent-protocol.md`.
@@ -115,17 +119,17 @@ Load only the reference files required for the current phase.
 
 1. Project-state discovery: identify the active folder/lane/chapter, current status, latest authoritative draft, frozen submitted files, and stop conditions before changing anything.
 2. Intake and boundaries: identify track, output type, language, target, deadline, evidence already available, and what must not be mixed with other projects.
-3. Topic selection: narrow the topic until it can be supported by available sources without overclaiming.
+3. Problem, gap, and topic design: define the field problem, evidence-backed gap, research question, contribution, limits, and pathway to scholarly or practical relevance. Pass `references/topic-selection-novelty.md` before substantial source collection or drafting.
 4. Target fit: verify journal or thesis requirements from official sources and save the evidence.
 5. Literature discovery and Zotero intake: search, download, import, tag, and record what is readable.
 6. Reading and annotation: create source notes that summarize, assess, and state how each source can be used; extract exact claims with page numbers or stable web evidence.
 7. Evidence system: maintain a source matrix, evidence log, page-locator audit, and source-synthesis map before heavy drafting.
-8. Architecture: build a claim-evidence outline or prospectus-style plan, not just a heading list. For reception-history chapters, include a horizon-of-expectation spine before drafting.
+8. Architecture: build a claim-evidence outline or prospectus-style plan, not just a heading list. Map the gap, contribution, counterargument, and relevance pathway to sections. For reception-history chapters, include a horizon-of-expectation spine before drafting.
 9. Literature review and method: synthesize by theme, method, corpus, and outlier evidence; state corpus limits honestly.
-10. Drafting: write section by section from the evidence map; mark gaps instead of filling them with guesses.
-11. Structural and style audit: after a full draft, create a reverse outline or paragraph-function check before polishing, then apply the writing-quality gate for evidence-first prose, repetition, rhythm, and AI-like style risks.
+10. Drafting: write section by section from the evidence map; turn evidence into interpretation and a stated stake, rather than filling pages with summaries or guesses.
+11. Structural and style audit: after a full draft, create a reverse outline or paragraph-function check before polishing, then apply the writing-quality gate for evidence-first prose, authorial judgment, insight, repetition, rhythm, and generic/AI-like style risks.
 12. Citation audit: check every substantive claim, quote, paraphrase, page number, and reference-list entry.
-13. Reviewer loop: use strict reviewer passes or subagents to identify desk-rejection risks, weak claims, missing evidence, and format problems. This gate is complete only after reviewer reports or role-labeled reports are saved or summarized, and a revision plan is created.
+13. Reviewer loop: use strict reviewer passes or subagents to identify desk-rejection risks, weak claims, missing evidence, unproven gaps or contributions, and format problems. This gate is complete only after reviewer reports or role-labeled reports are saved or summarized, and a revision plan is created.
 14. Revision: revise against a prioritized plan; avoid broad rewrites when two surgical edits solve the issue. This gate is complete only after the revised text is checked against the reviewer plan.
 15. Final package: generate the manuscript, metadata, declarations, cover letter or OJS fields, and final checklist.
 16. Submission and monitoring: record exact submission details; after submission, freeze the submitted version unless the journal requests revision.
@@ -174,13 +178,14 @@ A final package is ready only when these items are checked:
 
 1. Current target requirements were verified from official or saved sources.
 2. Manuscript scope matches available evidence.
-3. Source matrix and evidence log agree with the final text.
-4. Citation style, bibliography, page numbers, URLs, and access dates were audited.
-5. Reviewer/subagent gate was completed or explicitly documented as unavailable or user-skipped.
-6. Required declarations are present and truthfully worded.
-7. Anonymous and authored versions are handled according to the target rules.
-8. DOCX/PDF layout and metadata were inspected when those formats matter; if the user asks for DOCX only, do not deliver a final PDF.
-9. The user-facing handoff names the ready files and manual confirmations still required.
+3. A current Topic Decision Record and contribution/relevance review verdict trace the research problem, gap evidence, contribution, and practical-relevance claim to the final text without exceeding the evidence.
+4. Source matrix and evidence log agree with the final text.
+5. Citation style, bibliography, page numbers, URLs, and access dates were audited.
+6. Reviewer/subagent gate was completed or explicitly documented as unavailable or user-skipped.
+7. Required declarations are present and truthfully worded.
+8. Anonymous and authored versions are handled according to the target rules.
+9. DOCX/PDF layout and metadata were inspected when those formats matter; if the user asks for DOCX only, do not deliver a final PDF.
+10. The user-facing handoff names the ready files and manual confirmations still required.
 
 ## Portability for Other Agents
 

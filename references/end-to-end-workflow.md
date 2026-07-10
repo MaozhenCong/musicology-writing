@@ -55,15 +55,17 @@ Record these fields before work begins:
 
 If target or scope is ambiguous, offer the smallest defensible interpretation and ask before large changes.
 
-## Phase 1: Topic Selection
+## Phase 1: Problem, Gap, and Topic Design
 
 Convert a broad idea into a narrow researchable topic:
 
 1. Identify the broad field: musicology, music education, piano pedagogy, reception history, curriculum studies, intercultural music education.
 2. Define the corpus: selected documents, institutions, teaching materials, repertoire lists, syllabi, journal articles, reviews, interviews if approved.
-3. Define what the article will not claim.
-4. Check originality and similarity risk at title and argument level.
-5. Produce a working title, research questions, evidence needs, and target-fit rationale.
+3. Define the field problem, not just the object; name the uncertainty, tension, omission, disagreement, or decision difficulty.
+4. Run a scoped reconnaissance search, map the relevant scholarly conversation and counterexamples, and distinguish a provisional gap from a proven one.
+5. Define the research question, contribution type, strongest counterargument, relevance pathway, and what the work will not claim.
+6. Check originality and similarity risk at title and argument level.
+7. Produce a working title, research questions, evidence needs, target-fit rationale, and topic decision record using `topic-selection-novelty.md` before source collection or drafting.
 
 Prefer narrow titles such as “selected Chinese normal universities” or “Chinese higher piano education sources” over claims about all of China, all students, or all pedagogy.
 
@@ -88,6 +90,7 @@ Build the corpus before drafting:
 3. Import to Zotero with collection names and tags that map to the project.
 4. Record unreadable, missing, duplicate, or metadata-only items separately.
 5. Keep primary sources and secondary literature distinct.
+6. Record how each source confirms, complicates, limits, or contests the proposed gap and contribution; do not collect only confirming sources.
 
 Do not let bibliography size substitute for evidence quality.
 
@@ -122,6 +125,8 @@ Create an architecture document with:
 - Evidence mapped to each section.
 - Word-count allocation.
 - Known gaps.
+- Field problem, gap-chain evidence, contribution, and strongest counterargument.
+- Demonstrated-impact evidence or bounded potential-use pathway.
 - Target-journal fit notes.
 
 The outline must be a claim-evidence map, not a decorative table of contents.
@@ -138,12 +143,12 @@ For dissertation chapters or prospectus-like work, also include:
 
 Draft section by section:
 
-1. Introduction: problem, scope, target audience, contribution, research questions.
-2. Literature review: synthesize by theme; show the gap without overstating novelty.
+1. Introduction: problem, scope, target audience, contribution, research questions, and why the question matters now.
+2. Literature review: synthesize by theme; show the gap as a documented limitation or tension without overstating novelty.
 3. Sources and method: explain corpus selection, exclusions, limitations, language/translation handling.
-4. Analysis: organize around patterns or mechanisms, not a source-by-source list unless that is the method.
-5. Discussion: connect findings to the field without exceeding the evidence.
-6. Conclusion: answer the research questions, state contribution and limits, avoid new claims.
+4. Analysis: organize around patterns or mechanisms, not a source-by-source list unless that is the method. Move from observation to interpretation, warrant, and stake.
+5. Discussion: connect findings to the field and named relevance pathway without exceeding the evidence.
+6. Conclusion: answer the research questions, state contribution and limits, distinguish demonstrated impact from potential use, and avoid new claims.
 
 When evidence is thin, reduce the claim rather than adding unsupported prose.
 
@@ -157,11 +162,12 @@ Run these checks in order:
 2. Scope check: no claim broader than corpus.
 3. Evidence check: each important claim maps to evidence.
 4. Synthesis check: sources are grouped by relationship, agreement, disagreement, method, or outlier status rather than listed one by one.
-5. Citation check: pages, URLs, reference list, transliteration/translation.
-6. Target check: structure, length, style, anonymity, declarations.
-7. Reviewer check: desk-rejection risks, contribution, method, repetition, weak terminology.
-8. Similarity-risk check: title, headings, repeated phrases, overlap with previous submissions or thesis.
-9. Writing-quality check: evidence-first paragraphs, concrete subjects, rhythm variation, reduced formulaic lists, and no unsupported abstraction.
+5. Contribution check: the current Topic Decision Record, contribution/relevance review verdict, and completed draft agree on the problem, gap, contribution, counterargument, and relevance pathway.
+6. Citation check: pages, URLs, reference list, transliteration/translation.
+7. Target check: structure, length, style, anonymity, declarations.
+8. Reviewer check: desk-rejection risks, contribution, method, repetition, weak terminology.
+9. Similarity-risk check: title, headings, repeated phrases, overlap with previous submissions or thesis.
+10. Writing-quality check: evidence-first paragraphs, observation-to-insight movement, concrete subjects, rhythm variation, reduced formulaic lists, and no unsupported abstraction.
 
 Revise by priority. Fix blocking issues first; do not polish language while a method or evidence problem remains.
 

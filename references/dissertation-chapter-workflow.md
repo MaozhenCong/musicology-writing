@@ -57,10 +57,11 @@ Before expanding a dissertation chapter substantially, create or update a prospe
 1. working title and chapter function in the full dissertation;
 2. summary of the chapter argument;
 3. justification for why this chapter belongs in the dissertation;
-4. intended method and source corpus;
-5. outline or table of contents;
-6. bibliography/source-readiness list;
-7. page target and what must not be inflated without evidence.
+4. chapter-level research problem, literature gap or tension, contribution, strongest counterargument, and link to the dissertation's central argument;
+5. intended method and source corpus;
+6. outline or table of contents;
+7. bibliography/source-readiness list;
+8. page target and what must not be inflated without evidence.
 
 For a full dissertation, maintain both dissertation-wide and chapter-level plans so future agents can distinguish overall thesis logic from the current chapter task.
 
@@ -73,7 +74,8 @@ Build the chapter as a claim-evidence argument:
 3. state of scholarship by theme, not by bibliography dump;
 4. source corpus and limitations;
 5. chapter contribution and research questions;
-6. transition to the next chapter or dissertation structure.
+6. the chapter's bounded scholarly or practical relevance, distinguishing demonstrated impact from a proposed use when necessary;
+7. transition to the next chapter or dissertation structure.
 
 For introductions, expand breadth through more literature, clearer field positioning, and sharper research questions. Do not inflate length with unsupported generalizations.
 
@@ -176,6 +178,7 @@ Write from the evidence map:
 - In reception-history chapters, every paragraph group should identify the receiver horizon it advances or qualifies.
 - Long literature sections should synthesize debates, methods, and gaps rather than list sources one by one.
 - Use transition sentences to show why musicology, music education, reception history, and piano pedagogy sources belong in the same argument.
+- Make the chapter's insight legible: identify where source evidence revises, qualifies, or complicates a received account, and state why the revised interpretation matters for the dissertation argument.
 - Avoid claiming national, institutional, pedagogical, or student-outcome effects unless the cited corpus directly supports them.
 - Mark unresolved evidence in working notes, not in polished prose, unless the limitation belongs in the method section.
 - Apply `writing-quality-style.md` before polishing: remove generic AI-like rhythm, replace abstract placeholders with source-specific action, keep the user's voice as a soft guide, and preserve discipline and citation rules as hard constraints.
@@ -192,6 +195,7 @@ Before final delivery, run these passes or subagents:
 4. citation auditor: Chicago notes, Chinese titles, printed pages, missing sources;
 5. layout auditor: DOCX footnotes, page flow, blanks, metadata.
 6. style-quality auditor: evidence-first prose, paragraph rhythm, over-abstract terminology, repetition, and AI-like style risk.
+7. contribution and relevance auditor: research problem, gap evidence, dissertation-level stake, counterargument, and any actual-versus-potential impact claim.
 
 The citation auditor must inspect original files for page locators. Do not accept "page needs correction" as final when the user asked for real printed pages.
 

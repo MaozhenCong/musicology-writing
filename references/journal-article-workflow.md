@@ -61,6 +61,21 @@ When publication is needed for doctoral progress:
 4. Save evidence of official list status, deadline, fee policy, and submission route.
 5. Treat acceptance or online-first as sufficient only if the doctoral rule confirms it.
 
+## Topic Novelty Gate
+
+Before drafting a new journal article, rebuilding a rejected article, or answering a user's concern that a topic lacks novelty or practical contribution, load `topic-selection-novelty.md` and create a brief topic decision record. The record must include:
+
+- target reader and journal-fit sentence;
+- research problem, not only research area;
+- documented gap chain, including closely related studies and counterexamples;
+- contribution type, strongest counterargument, and bounded "so what" answer;
+- corpus and method feasibility;
+- demonstrated-impact evidence or a clearly labelled potential-use pathway;
+- evidence of gap from recent journal models or literature;
+- pass/revise/stop decision.
+
+If the topic cannot state a concrete contribution to the target journal's field, revise the topic before collecting a large corpus or drafting prose.
+
 ## Dissertation-to-Article Transfer
 
 When an article grows out of dissertation material, do not compress a chapter into a journal manuscript mechanically. Create a new article decision record with:
@@ -68,6 +83,7 @@ When an article grows out of dissertation material, do not compress a chapter in
 - a distinct research question, thesis, corpus, and central vocabulary;
 - a clear statement of what dissertation material is excluded;
 - evidence that the target journal fits this narrower article;
+- a topic-novelty decision record if the article is being rebuilt after rejection or desk rejection;
 - similarity-risk checks against the dissertation and all adjacent journal lanes;
 - rewritten and re-evidenced prose rather than copied chapter paragraphs.
 
