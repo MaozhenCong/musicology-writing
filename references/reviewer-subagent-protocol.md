@@ -18,9 +18,22 @@ Do not mark the project as final-ready until this gate has a visible artifact:
 3. a prioritized revision plan;
 4. a record of which revisions were applied, rejected, or left for manual follow-up.
 
-If subagent tools are available and the user has explicitly requested subagents, independent agents, or parallel review, spawn separate subagents for distinct roles. If subagents are unavailable or not explicitly authorized in the current tool environment, state that limitation and run the same roles sequentially in the main thread. Do not silently replace a requested subagent review with an unlabelled internal check.
+If the user or a current project instruction explicitly requires subagents, run the capability preflight below and spawn separate subagents for distinct roles. Do not silently replace a requested subagent review with an internal check.
 
-When a user asks for the full workflow, says not to skip steps, or the current thread or project handoff explicitly requires subagents, treat the reviewer gate as automatic for the current dissertation or publication task. Actual subagent spawning still depends on tool availability and user authorization; if subagents cannot be spawned, run distinct role-labeled reports and record that limitation. Do not wait for a second reminder before running the reviewer gate.
+When a user asks for the full workflow, says not to skip steps, or the current thread or project handoff explicitly requires subagents, treat the reviewer gate as automatic for the current dissertation or publication task. A project-local standing instruction that requires actual subagents counts as authorization. Do not wait for a second reminder before running the reviewer gate.
+
+## Capability Preflight and Agent Receipts
+
+Before declaring that subagents are unavailable:
+
+1. Inspect the complete callable-tool metadata, including deferred, lazy-loaded, orchestrator, or plugin-provided tools. Search names and descriptions for `subagent`, `multi-agent`, `spawn`, `delegate`, or equivalent capabilities.
+2. Do not rely only on the tools printed in the initial prompt. In Codex environments, deferred tools may be discoverable through the global tool registry; `multi_agent_v1__spawn_agent` is one current example.
+3. If a matching capability appears, call it for a real, bounded reviewer task. A registry match without an attempted call is not proof that the gate ran.
+4. Record each spawned agent's ID, reviewer role, input files, completion status, and saved report path in the reviewer synthesis or execution log.
+5. Declare unavailability only after the complete registry search returns no matching capability or an actual spawn call fails. Save the exact error or discovery result.
+6. Close completed agents after their reports have been integrated when the environment requires explicit cleanup.
+
+If actual subagents are explicitly required and the preflight genuinely fails, mark the reviewer gate `blocked: actual subagent unavailable`. Sequential role-labeled self-review may keep work moving, but it does not make the package final-ready unless the user explicitly waives the requirement. Never describe a self-review as a subagent report.
 
 ## Default Reviewer Passes
 
@@ -35,7 +48,7 @@ Run at least one strict pass. For high-stakes submission, use several distinct p
 7. Style-quality reviewer: evidence-first prose, paragraph rhythm, repeated formulae, over-abstract terminology, and AI-like style risk. This reviewer improves clarity and authorial control; it must not hide required AI-use disclosure.
 8. Contribution and relevance reviewer: field problem, evidence-backed gap, contribution, strongest counterargument, and the boundary between demonstrated impact and a proposed use.
 
-If subagents are available and explicitly authorized for the current task, run them independently. If not, perform separate role-labeled passes in one thread and keep the outputs separate.
+If subagents are required and available, run them independently. If actual subagents were not required or authorized, perform separate role-labeled passes in one thread and keep the outputs separate.
 
 For dissertation-chapter work, the minimum independent roles are:
 

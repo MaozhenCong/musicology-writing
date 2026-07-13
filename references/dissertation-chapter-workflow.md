@@ -93,6 +93,16 @@ Do not organize the dissertation chapter merely by chronology, repertoire list, 
 
 When revising a chapter that has drifted toward summary, add a reverse-outline column for "horizon function." Paragraphs that only say "this happened" or "this source exists" should be revised or cut unless they support a receiver-specific horizon claim.
 
+## Cross-Chapter Horizon Consistency Gate for Reception-History Dissertations
+
+Apply this gate only when the dissertation's research problem is reception history or explicitly uses horizon of expectation across historical chapters. Do not impose it on all dissertation work. For other dissertation types, use the chapter's own analytical architecture and retain only the general evidence, reviewer, citation, and DOCX gates.
+
+For a reception-history dissertation, read `dissertation-horizon-architecture.md` and the project's current dissertation-wide horizon architecture before choosing a chapter outline. Maintain one undated project-level master record so later agents do not select a stale dated plan.
+
+Before drafting, add or update the current chapter's architecture card with: period, receiver groups, prior horizon, social conditions, musical objects/practices, reception profile, evidence threshold, horizon change, competing explanation, and transition inherited by the next chapter. During reverse outlining, label every paragraph group by one of the shared analytical functions: Society, Music, Reception Profile, Horizon of Expectation, Historical Change, or bounded context.
+
+After revision, run a cross-chapter consistency audit against the preceding chapter and the dissertation master. The audit must confirm that the analytical functions recur, identify the exact inherited horizon that changed, and reject mechanical reuse of identical claims or headings. Save the card and audit with the chapter artifacts. A chapter is not final-ready when its master-registry entry is missing or stale.
+
 ## Source Coverage Rule
 
 Do not omit relevant literature because page extraction is difficult. Rank sources by relevance, authority, and citation value. Page uncertainty affects the locator label, not whether the source deserves attention.
@@ -201,7 +211,7 @@ The citation auditor must inspect original files for page locators. Do not accep
 
 For long dissertation chapters, combine the musicology and music education roles only if the chapter's content makes them genuinely inseparable; do not combine citation auditing with argument review. The citation/evidence auditor must remain separate because page locators, primary-source boundaries, and bibliography correspondence are common failure points.
 
-When subagents are available and the user has explicitly requested subagents, independent agents, or parallel review, spawn separate reviewer subagents for the independent roles before finalizing. If the user asks for full workflow, strict process, or "不要跳过" without explicit subagent authorization, the reviewer gate still applies; run separate role-labeled reports in the main thread and state whether subagents were not authorized or not available. Save or summarize the reports and create a revision plan before editing.
+When the user or project instructions require subagents, run the capability preflight in `reviewer-subagent-protocol.md`, spawn separate reviewer subagents for the independent roles, and save agent receipts before finalizing. Do not treat absence from the initially displayed tool list as unavailability. If actual subagents are required but genuinely unavailable, the chapter remains blocked from final-ready status unless the user explicitly waives that requirement. When subagents were not required or authorized, separate role-labeled reports in the main thread remain acceptable. Save the reports and create a revision plan before editing.
 
 The dissertation-chapter reviewer gate is complete only when the project has:
 
@@ -226,6 +236,8 @@ The dissertation-chapter reviewer gate is complete only when the project has:
 - [ ] Reviewer/subagent gate was completed, with reports, synthesis, revision plan, and execution notes.
 - [ ] Reverse-outline or paragraph-function audit confirms the chapter is not just an expanded source list.
 - [ ] For reception-history chapters, a horizon-of-expectation spine or reverse-outline horizon-function check confirms that receiver, prior horizon, evidence type, and horizon change are explicit.
+- [ ] For reception-history dissertations only, the project-level dissertation horizon architecture contains a current chapter card, and a cross-chapter consistency audit identifies the inherited horizon and the chapter-specific change.
+- [ ] When actual subagents were required, the audit records agent IDs, roles, completion states, and report paths; a self-review is not counted as a subagent report.
 - [ ] The DOCX was generated from the approved chapter style template when one exists; the manuscript page contains no workflow/status line.
 - [ ] The generator supports the source draft's active footnote notation and converts every footnote to real Word footnotes.
 - [ ] Rendered page QA or Word inspection confirms no blank pages or severe footnote overflow.

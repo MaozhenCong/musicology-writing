@@ -250,9 +250,36 @@ note_id	manuscript_location	sources_in_note	style_ok	page_locators_ok	action_nee
 ## Reverse Outline Audit
 
 ```tsv
-location	paragraph_function	thesis_connection	evidence_used	interpretation_or_stake	action	notes
-Introduction paragraph 1	problem statement	yes	none yet	field consequence	keep/add evidence
+location	horizon_stage	receiver_group	paragraph_function	thesis_connection	evidence_used	evidence_threshold	claim_limit	alternative_explanation	claim_ids	horizon_transition_id	action	notes
+Introduction paragraph 1	method	all named receivers	problem statement	yes	none yet	method only	does not establish a historical horizon	n/a	C001	n/a	keep/add evidence
 ```
+
+## Dissertation Chapter Architecture Card
+
+```yaml
+chapter:
+period:
+boundary_condition:
+horizon_in_id:
+inherited_horizon:
+receiver_groups:
+social_conditions:
+musical_objects:
+reception_profile:
+evidence_threshold:
+claim_limit:
+alternative_explanation:
+horizon_change:
+horizon_out_id:
+next_chapter_test:
+falsifiers:
+claim_evidence_matrix:
+reverse_outline:
+reviewer_reports:
+cross_chapter_audit:
+```
+
+Adjacent chapters must satisfy `current.horizon_out_id == next.horizon_in_id`. Headings may vary, but the analytical dependency remains fixed: Horizon of Expectation depends on the Reception Profile, and Historical Change compares the inherited horizon with the resulting horizon.
 
 ## Reading Note
 

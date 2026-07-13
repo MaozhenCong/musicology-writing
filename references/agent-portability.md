@@ -11,10 +11,13 @@ musicology-writing/
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml
+├── scripts/
+│   └── validate_workflow_guards.py
 └── references/
     ├── agent-portability.md
     ├── case-patterns.md
     ├── dissertation-chapter-workflow.md
+    ├── dissertation-horizon-architecture.md
     ├── end-to-end-workflow.md
     ├── evidence-citation-zotero.md
     ├── journal-article-workflow.md
@@ -65,3 +68,5 @@ Do not include:
 - journal login credentials or OJS session data.
 
 Keep those in the working project, not in the reusable skill.
+
+Before publishing an updated skill, run `python3 scripts/validate_workflow_guards.py` and the skill-creator `quick_validate.py`. The guard script checks the mandatory actual-subagent and cross-chapter architecture rules; `quick_validate.py` checks skill structure and frontmatter.

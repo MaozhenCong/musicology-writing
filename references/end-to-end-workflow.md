@@ -171,7 +171,7 @@ Run these checks in order:
 
 Revise by priority. Fix blocking issues first; do not polish language while a method or evidence problem remains.
 
-For full-workflow, final-manuscript, or dissertation-chapter requests, do not treat this phase as complete until reviewer reports or role-labeled reports have been produced, synthesized, and converted into a revision plan. If the user explicitly requests subagents, independent agents, or parallel review and tools are available, use them before finalization; otherwise state the limitation and run distinct role-labeled passes in the main thread.
+For full-workflow, final-manuscript, or dissertation-chapter requests, do not treat this phase as complete until reviewer reports, synthesis, and a revision plan exist. When the user or project instructions require actual subagents, run the capability preflight in `reviewer-subagent-protocol.md`, spawn independent reviewers, and save agent receipts before finalization. If the preflight genuinely fails, actual-subagent-required work remains blocked from final-ready status unless the user explicitly waives that requirement. When actual subagents were not required or authorized, distinct role-labeled main-thread passes remain acceptable.
 
 ## Phase 8: Finalization and Submission
 
@@ -181,7 +181,7 @@ Before submission:
 2. Inspect layout if DOCX/PDF matters.
 3. Remove comments, tracked changes, hidden identifying metadata, and accidental local paths.
 4. Prepare title page, anonymous version, cover letter, abstract, keywords, declarations, AI-use statement, funding/conflict/ethics/data statements.
-5. Check that the reviewer gate, citation audit, page-locator audit, and final-layout audit have visible artifacts or explicit blocked/manual-follow-up notes.
+5. Check that the reviewer gate, citation audit, page-locator audit, and final-layout audit have visible artifacts. Manual evidence or layout follow-up may remain only when the target permits it and it is disclosed; a blocked actual-subagent requirement never satisfies the reviewer gate.
 6. Record the exact submission date, route, ID, file names, email thread, and dashboard URL.
 
 After submission:
@@ -190,4 +190,4 @@ After submission:
 - Monitor only official dashboards and email.
 - If a revision request arrives, create a dated revision plan and response table before editing.
 
-Do not call a project "final-ready" merely because a manuscript file exists. Final-ready means the final checklist, target audit, evidence/citation audit, reviewer gate, style gate when applicable, and layout/metadata checks required for that target have current artifacts or explicit unresolved manual items.
+Do not call a project "final-ready" merely because a manuscript file exists. Final-ready means the final checklist, target audit, evidence/citation audit, reviewer gate, style gate when applicable, and layout/metadata checks required for that target have passed with current artifacts. Disclosed manual evidence items may remain only when they do not invalidate a required claim or gate; they never substitute for an explicitly required actual-subagent review.

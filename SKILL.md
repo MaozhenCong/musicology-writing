@@ -2,21 +2,18 @@
 name: musicology-writing
 description: >-
   Use for end-to-end musicology, music education, piano pedagogy,
-  cross-cultural music education, Western classical music in China, or
-  doctoral-publication writing workflows: full PhD dissertations, dissertation
-  chapters or introductions, journal articles, Zotero intake, evidence
-  matrices, source-safe drafting, Chicago or journal-style footnotes, verified
-  printed-page citations, DOCX/final manuscript preparation, non-fabrication
-  checks, research-problem and gap analysis, contribution and practical-value
-  design, authorial scholarly prose, reviewer/subagent critique, OJS/email submission, response to
-  reviewers, and withdrawal/resubmission (/cancel-subscription). Trigger when
-  the user mentions musicology/music education papers, PhD dissertations,
-  doctoral chapters, dissertation introductions, journal articles, Zotero,
-  literature review, source matrix, exact page citations, real printed pages,
-  "不要杜撰", footnotes, reviewer/subagent review, target journal requirements,
-  similarity risk, research gap, research significance, practical value,
-  anonymous manuscript, final draft, response to reviewers,
-  withdraw submission, cancel submission, 撤稿, or /cancel-subscription.
+  cross-cultural music education, Western classical music in China, and
+  doctoral-publication writing: dissertations, chapters, introductions,
+  journal articles, Zotero intake, evidence matrices, source-safe drafting,
+  Chicago or journal footnotes, printed-page verification, DOCX preparation,
+  no-fabrication audits, research problems and gaps, contributions and
+  practical value, reviewer/subagent gates, submission, reviewer responses,
+  and withdrawal/resubmission. Trigger for musicology papers, PhD chapters,
+  dissertation introductions, Zotero, literature reviews, source matrices,
+  exact page citations, real printed pages, "不要杜撰", footnotes,
+  reviewer/subagent review, target-journal requirements, similarity risk,
+  research gaps, practical value, final drafts, OJS, response to reviewers,
+  撤稿, or /cancel-subscription.
 ---
 
 # Musicology / Music Education Academic Writing
@@ -66,7 +63,7 @@ Do not let examples or prior case patterns override a current target audit. If t
 14. Before large edits or automated file repair, create a clearly named backup or working copy. Do not overwrite the user's only editable manuscript.
 15. Classify work before editing: substantive argument revision, source verification, style polishing, formatting repair, journal compliance, or final-package assembly. Report which category was handled.
 16. After editing, hand off the updated file path, change summary, unresolved issues, user-confirmation items, and verification status.
-17. For reception-history dissertation work, keep the chapter centered on the receiver's horizon of expectation: identify the receiver group, prior musical/cultural horizon, source-proven trigger, and horizon change before expanding chronology, repertoire, or institutional background.
+17. For reception-history dissertation work, read `references/dissertation-horizon-architecture.md` and the project's current dissertation-wide horizon architecture before drafting. Preserve the analytical functions `Society -> Music -> Reception Profile -> Horizon of Expectation -> Historical Change`: identify the receiver group, prior musical/cultural horizon, source-proven trigger, reception profile, and horizon change before expanding chronology, repertoire, or institutional background. The functions must recur across chapters, but they need not become identical section titles.
 18. Treat practical value as a bounded pathway from a finding to a named reader, decision, practice, or interpretation. Distinguish demonstrated impact from plausible use; never promise educational, institutional, cultural, or social change that the evidence cannot establish.
 19. When resuming a project, continue from the first incomplete or invalidated gate. Do not repeat completed gates unless the target, corpus, manuscript, or user instruction has changed enough to make the earlier artifact stale.
 
@@ -99,7 +96,7 @@ Use native Word/DOCX handling conservatively because musicology manuscripts ofte
 ## Workflow Router
 
 - Starting from scratch: read `references/end-to-end-workflow.md` and begin at intake/topic selection; for any new, weak, unclear, or high-stakes topic, also read `references/topic-selection-novelty.md`.
-- Writing or revising a dissertation chapter, introduction, or literature review: read `references/dissertation-chapter-workflow.md`; before substantial expansion, also read `references/topic-selection-novelty.md` to test the chapter problem, contribution, and dissertation-level function.
+- Writing or revising a reception-history dissertation chapter, introduction, or literature review: read `references/dissertation-chapter-workflow.md` and `references/dissertation-horizon-architecture.md`; before substantial expansion, also read `references/topic-selection-novelty.md` to test the chapter problem, contribution, and dissertation-level function.
 - Writing, submitting, revising, or monitoring a journal article: read `references/journal-article-workflow.md`; when selecting, rebuilding, or questioning a topic's novelty or practical contribution, read `references/topic-selection-novelty.md` before drafting.
 - Searching or importing literature: read `references/evidence-citation-zotero.md`.
 - Drafting, revising, or checking citations: read `references/evidence-citation-zotero.md` and the current project evidence files.
@@ -168,9 +165,11 @@ Use these stages as gates. A stage is complete only when its expected artifact e
 
 ## Reviewer / Subagent Rule
 
-Before finalization, run at least one strict reviewer pass. For dissertation chapters, final manuscripts, major revisions, or any request that says to follow the full workflow, use the reviewer/subagent gate before final delivery. If subagents or fresh threads are available and the user has explicitly requested subagents, independent agents, or parallel review, spawn distinct reviewer subagents rather than silently doing a single self-review. Give them the manuscript and target requirements, not the intended answer. Ask for specific, evidence-based criticism and a decision-style recommendation. If subagents are unavailable or not explicitly authorized in the current tool environment, say so explicitly and perform separate role-labeled passes in sequence, keeping their reports distinct.
+Before finalization, run at least one strict reviewer pass. For dissertation chapters, final manuscripts, major revisions, or any request that says to follow the full workflow, use the reviewer/subagent gate before final delivery. When the user or a current project instruction explicitly requires subagents, first inspect the complete callable-tool registry, including deferred or lazy-loaded tools; do not infer unavailability from the initially displayed tool list. If a spawn/delegation capability exists, run distinct reviewer subagents and save their agent IDs and reports. Give them the manuscript and target requirements, not the intended answer. Ask for specific, evidence-based criticism and a decision-style recommendation.
 
-The reviewer pass is read-only by default. Convert criticism into a prioritized revision plan before editing. Do not mark the final package ready until the handoff can identify the reviewer reports, the synthesis or revision plan, and the actions taken. If the reviewer gate is intentionally skipped by user instruction, state that exception in the final checklist.
+If actual subagents are explicitly required, sequential self-review is not an equivalent substitute. Call the gate blocked rather than final-ready unless the user explicitly waives the actual-subagent requirement. Claim that subagents are unavailable only after recording the registry search and the exact failed spawn/discovery result. When subagents were not required or authorized, separate role-labeled passes remain an acceptable reviewer gate.
+
+The reviewer pass is read-only by default. Convert criticism into a prioritized revision plan before editing. Do not mark the final package ready until the handoff can identify the reviewer reports, the synthesis or revision plan, and the actions taken. If the user waives actual subagents, retain distinct role-labeled review unless the user separately and explicitly waives the entire reviewer gate. An entire-gate waiver must be recorded as an exception and the package must not be labelled fully reviewer-verified or final-ready.
 
 ## Final Package Rule
 
@@ -181,7 +180,7 @@ A final package is ready only when these items are checked:
 3. A current Topic Decision Record and contribution/relevance review verdict trace the research problem, gap evidence, contribution, and practical-relevance claim to the final text without exceeding the evidence.
 4. Source matrix and evidence log agree with the final text.
 5. Citation style, bibliography, page numbers, URLs, and access dates were audited.
-6. Reviewer/subagent gate was completed or explicitly documented as unavailable or user-skipped.
+6. Reviewer/subagent gate was completed. If actual subagents were explicitly required, the package records agent IDs and independent reports; unavailability blocks final-ready status unless the user explicitly waived that requirement.
 7. Required declarations are present and truthfully worded.
 8. Anonymous and authored versions are handled according to the target rules.
 9. DOCX/PDF layout and metadata were inspected when those formats matter; if the user asks for DOCX only, do not deliver a final PDF.
