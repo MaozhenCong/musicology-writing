@@ -91,6 +91,12 @@ For dissertation chapters about reception history, build a horizon-of-expectatio
 
 Do not organize the dissertation chapter merely by chronology, repertoire list, article inventory, or institutional timeline unless that structure directly explains changes in reception. Use earlier dissertations, bibliographies, and catalogues as source maps and baselines, not as the chapter's analytical architecture.
 
+Establish a theory-authority hierarchy before drafting. Use foundational theorists and their directly checked texts for the general model. Use a prior composer-in-country dissertation as an applied case, operational comparison, or source-locating precedent only. Do not write that the case study "supplies the model" while foundational theorists merely refine it unless the dissertation explicitly defends that exceptional dependency.
+
+Keep the inferential order distinct from exposition. Society and Music sections may appear before direct reception evidence, but they establish source-bounded prior conditions or hypotheses. Build the Reception Profile from documented acts before inferring the resulting Horizon of Expectation and any Historical Change. Context alone cannot prove a composer-specific horizon.
+
+Use `reception` as the umbrella process. Reserve `acceptance` for evidenced approval or adoption. Use `received as X` only when an identifiable receiver or receiver group demonstrably took up interpretation X; publication or textual availability alone does not establish uptake.
+
 When revising a chapter that has drifted toward summary, add a reverse-outline column for "horizon function." Paragraphs that only say "this happened" or "this source exists" should be revised or cut unless they support a receiver-specific horizon claim.
 
 ## Cross-Chapter Horizon Consistency Gate for Reception-History Dissertations

@@ -16,6 +16,19 @@ These are analytical functions, not mandatory headings. Evidence density and the
 
 The dependency is fixed even when headings vary: the horizon claim must be derived from the documented reception profile, and historical change must compare the inherited horizon with the evidence-supported resulting horizon. Context alone cannot establish reception; occurrence alone cannot establish meaning; a later chapter cannot silently redefine what it inherited.
 
+## Theory Authority and Terminology
+
+For reception-history dissertations, define a stable authority hierarchy before applying the five functions:
+
+1. Foundational theorists and directly checked theory texts authorize the general concepts and inferential rules.
+2. Music-specific reception theorists authorize the transfer from literary reception aesthetics to musical works, performance, institutions, listeners, and music-cultural history.
+3. Interaction or response theory may constrain fixed-meaning and private-psychology claims without automatically carrying the historical architecture.
+4. A prior composer-in-country dissertation is an applied precedent, operational comparison, or source map. Do not present it as the source from which the foundational theory derives.
+
+Keep the inferential order explicit: Society and Music establish source-bounded prior conditions; Reception Profile establishes observable acts; Horizon of Expectation is inferred from those acts; Historical Change compares the resulting and inherited horizons. Expository order may vary, but context cannot prove a composer-specific horizon before the reception evidence is tested.
+
+Use `reception` for the umbrella historical process. Reserve `acceptance` for demonstrated approval or adoption. Use `received as X` only when evidence identifies an actual receiver or group and supports interpretation X. A published interpretation establishes textual availability or an offered response position, not reader uptake.
+
 ## Project-Level Master Record
 
 Maintain one current, undated dissertation-wide architecture file in the project workspace. Dated plans may remain as provenance, but the undated file is authoritative. Its chapter registry must contain:

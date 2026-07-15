@@ -16,6 +16,8 @@ REQUIRED = {
         r"unavailability blocks final-ready status",
         r"dissertation-horizon-architecture\.md",
         r"Society -> Music -> Reception Profile -> Horizon of Expectation -> Historical Change",
+        r"foundational theorists and direct theory texts as the authority layer",
+        r"Reserve `acceptance` for demonstrated approval or adoption",
     ),
     "references/reviewer-subagent-protocol.md": (
         r"Capability Preflight and Agent Receipts",
@@ -29,11 +31,22 @@ REQUIRED = {
         r"Apply this gate only when.*reception history.*Do not impose it on all dissertation work",
         r"project-level dissertation horizon architecture",
         r"agent IDs, roles, completion states, and report paths",
+        r"Establish a theory-authority hierarchy before drafting",
+        r"Build the Reception Profile from documented acts before inferring the resulting Horizon of Expectation",
+        r"Context alone cannot prove a composer-specific horizon",
+        r"Use `received as X` only when an identifiable receiver",
+        r"publication or textual availability alone does not establish uptake",
     ),
     "references/dissertation-horizon-architecture.md": (
         r"Stable Analytical Functions",
+        r"Theory Authority and Terminology",
         r"Project-Level Master Record",
         r"Cross-Chapter Subagent Brief",
+        r"Music-specific reception theorists authorize the transfer",
+        r"Interaction or response theory may constrain.*without automatically carrying the historical architecture",
+        r"prior composer-in-country dissertation is an applied precedent",
+        r"Reception Profile establishes observable acts; Horizon of Expectation is inferred from those acts",
+        r"published interpretation establishes textual availability.*not reader uptake",
     ),
     "references/end-to-end-workflow.md": (
         r"run the capability preflight",
@@ -102,6 +115,54 @@ def self_test(texts: dict[str, str]) -> list[str]:
             "Apply this gate to all dissertation work.",
             "reception-history scope mutation",
         ),
+        (
+            "references/dissertation-horizon-architecture.md",
+            "A prior composer-in-country dissertation is an applied precedent, operational comparison, or source map. Do not present it as the source from which the foundational theory derives.",
+            "A prior composer-in-country dissertation supplies the model from which foundational theory derives.",
+            "theory-authority inversion mutation",
+        ),
+        (
+            "SKILL.md",
+            "Reserve `acceptance` for demonstrated approval or adoption.",
+            "Use `acceptance` as a synonym for reception.",
+            "reception-acceptance collapse mutation",
+        ),
+        (
+            "references/dissertation-horizon-architecture.md",
+            "Music-specific reception theorists authorize the transfer from literary reception aesthetics to musical works, performance, institutions, listeners, and music-cultural history.",
+            "Music-specific reception theory is optional and supplies no authority for the transfer to music history.",
+            "music-specific authority removal mutation",
+        ),
+        (
+            "references/dissertation-horizon-architecture.md",
+            "Interaction or response theory may constrain fixed-meaning and private-psychology claims without automatically carrying the historical architecture.",
+            "Interaction or response theory automatically carries the complete historical architecture.",
+            "interaction-theory overreach mutation",
+        ),
+        (
+            "references/dissertation-horizon-architecture.md",
+            "Reception Profile establishes observable acts; Horizon of Expectation is inferred from those acts; Historical Change compares the resulting and inherited horizons.",
+            "Horizon of Expectation is established first; Reception Profile then confirms it; Historical Change follows the assumed horizon.",
+            "inferential-order reversal mutation",
+        ),
+        (
+            "references/dissertation-horizon-architecture.md",
+            "A published interpretation establishes textual availability or an offered response position, not reader uptake.",
+            "A published interpretation or visible text establishes reader uptake.",
+            "textual-availability uptake mutation",
+        ),
+        (
+            "references/dissertation-chapter-workflow.md",
+            "publication or textual availability alone does not establish uptake.",
+            "publication or textual availability alone establishes uptake.",
+            "chapter-workflow uptake reversal mutation",
+        ),
+        (
+            "references/dissertation-chapter-workflow.md",
+            "Build the Reception Profile from documented acts before inferring the resulting Horizon of Expectation and any Historical Change.",
+            "Infer the resulting Horizon of Expectation before building the Reception Profile from documented acts.",
+            "chapter-workflow inferential-order reversal mutation",
+        ),
     )
     for path, old, new, label in mutations:
         if old not in texts[path]:
@@ -128,7 +189,7 @@ def main() -> int:
             print(f"- {failure}")
         return 1
     count = sum(map(len, REQUIRED.values())) + sum(map(len, FORBIDDEN.values()))
-    print(f"Workflow guards valid: {count} semantic checks and 4 mutation tests passed.")
+    print(f"Workflow guards valid: {count} semantic checks and 12 mutation tests passed.")
     return 0
 
 
